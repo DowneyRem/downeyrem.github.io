@@ -104,3 +104,11 @@ deploy:
   type: git
   repo: https://github.com/DowneyRem/downeyrem.github.io.git
   branch: master
+
+## Server configuration (Added for LAN access)
+# 设置 IP 为 0.0.0.0 使服务器监听所有网络接口，从而允许局域网访问
+server:
+  port: 4000
+  ip: 0.0.0.0
+  compress: false
+  header: true
