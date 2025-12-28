@@ -77,6 +77,20 @@ const teekConfig = defineTeekConfig({
         name: "DowneyRem", // 作者名称
         link: "https://github.com/DowneyRem", // 点击作者名称后跳转的链接
     },
+    siteAnalytics: [
+        {
+            provider: "google",
+            options: {
+                id: "G-X0J76E1E8Y",
+            },
+        },
+        {
+            provider: "baidu",
+            options: {
+                id: "******",
+            },
+        },
+    ],
     post: {
         postStyle: "list", // 文章列表风格
         excerptPosition: "top", // 文章摘要位置
