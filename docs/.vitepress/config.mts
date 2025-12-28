@@ -170,12 +170,15 @@ export default defineConfig({
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Examples', link: '/markdown-examples' }
+            { text: "🏠 首页", link: "/" },
+            { text: "🅿️ Pixiv 书源", link: "/PixivSource" },
+            { text: "📚 兽人阅读", link: "https://t.me/FurryReading" },
         ],
 
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+            { icon: "github", link: "https://github.com/DowneyRem" },
+            { icon: "telegram", link: "https://t.me/DowneyRem" },
+            { icon: "twitter", link: "https://x.com/DowneyRemDragon" },
         ]
     }
 })

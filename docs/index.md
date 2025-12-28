@@ -82,9 +82,12 @@ tk:
     list:
       - name: Pixiv 书源
         desc: 最好的 Pixiv 小说阅读器
-        avatar: https://cdn.jsdelivr.net/gh/DowneyRem/PixivSource@main/doc/pic/BookSourcePixiv.png
+        avatar: https://downeyrem.github.io/PixivSource/favicon-512x512.png
         link: https://downeyrem.github.io/PixivSource
-        
+      - name: 兽人阅读
+        desc: 兽人小说，精品阅读
+        avatar: /img/FurryReading.jpg
+        link: https://t.me/FurryReading
     title: 🤝友情链接
     emptyLabel: 暂无友情链接
     limit: 5
