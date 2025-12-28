@@ -1,5 +1,10 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
+import { defineTeekConfig } from "vitepress-theme-teek/config";
 
+// Teek 主题配置
+const teekConfig = defineTeekConfig({});
+
+// VitePress 配置
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "DowneyRem's Blog",
