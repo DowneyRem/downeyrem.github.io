@@ -116,6 +116,34 @@ const teekConfig = defineTeekConfig({
         hideOnSinglePage: false, // 只有一页时是否隐藏
         // ...
     },
+    docAnalysis: {
+        enabled: true, // 是否启用站点信息卡片
+        createTime: "2025-12-31", // 站点创建时间
+        wordCount: true, // 是否开启文章页的字数统计
+        readingTime: true, // 是否开启文章页的阅读时长统计
+        // 访问量、访客数统计配置
+        statistics: {
+            provider: "google", // 网站流量统计提供商
+            siteView: true, // 是否开启首页的访问量和排名统计
+            pageView: true, // 是否开启文章页的浏览量统计
+            tryRequest: false, // 如果请求网站流量统计接口失败，是否重试
+            tryCount: 5, // 重试次数，仅当 tryRequest 为 true 时有效
+            tryIterationTime: 2000, // 重试间隔时间，单位：毫秒，仅当 tryRequest 为 true 时有效
+            permalink: true, // 是否只统计永久链接的浏览量，如果为 false，则统计 VitePress 默认的文档目录链接
+        },
+        // 自定义现有信息
+        overrideInfo: [
+            {
+                key: "lastActiveTime",
+                label: "活跃时间",
+                value: (_, currentValue) => (currentValue + "").replace("前", ""),
+                show: true,
+            },
+            { key: "totalPosts", label: "文章总数" }
+        ],
+        // 自定义额外信息
+        // appendInfo: [{ key: "index", label: "序号", value: "天客 99" }],
+    },
 });
 
 // VitePress 配置
