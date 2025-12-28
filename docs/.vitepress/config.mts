@@ -77,20 +77,20 @@ const teekConfig = defineTeekConfig({
         name: "DowneyRem", // 作者名称
         link: "https://github.com/DowneyRem", // 点击作者名称后跳转的链接
     },
-    siteAnalytics: [
-        {
-            provider: "google",
-            options: {
-                id: "G-X0J76E1E8Y",
-            },
-        },
-        {
-            provider: "baidu",
-            options: {
-                id: "******",
-            },
-        },
-    ],
+    // siteAnalytics: [
+    //     {
+    //         provider: "google",
+    //         options: {
+    //             id: "G-X0J76E1E8Y",
+    //         },
+    //     },
+    //     {
+    //         provider: "baidu",
+    //         options: {
+    //             id: "******",
+    //         },
+    //     },
+    // ],
     post: {
         postStyle: "list", // 文章列表风格
         excerptPosition: "top", // 文章摘要位置
@@ -152,6 +152,21 @@ export default defineConfig({
     extends: teekConfig,
     title: "DowneyRem's Blog",
     description: "唐尼瑞姆的博客",
+    head: [
+        // 优化：预连接到 Google 统计，减少代理环境下的连接延迟
+        ["link", { rel: "preconnect", href: "https://www.googletagmanager.com" }],
+        ["link", { rel: "preconnect", href: "https://www.google-analytics.com", crossorigin: "" }],
+
+        // ["link", { rel: "manifest", href: "/manifest.json" }]
+        ["script", {
+            async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-X0J76E1E8Y" }],
+        ["script", {},
+            `window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag("js", new Date());
+            gtag("config", "G-X0J76E1E8Y");`
+        ],
+    ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
