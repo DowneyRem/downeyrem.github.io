@@ -35,14 +35,14 @@ const teekConfig = defineTeekConfig({
     },
     sidebarTrigger: false,
     windowTransition: true,
-    bodyBgImg: {
-        imgSrc: ["/img/bg1.png"], // body 背景图片链接。单张图片 string | 多张图片 string[], 多张图片时每隔 imgInterval 秒换一张
-        imgOpacity: 1, // body 背景图透明度，选值 0.1 ~ 1.0
-        imgInterval: 15000, //  body 当多张背景图时（imgSrc 为数组），设置切换时间，单位：毫秒
-        imgShuffle: false, // body 背景图是否随机切换，为 false 时按顺序切换
-        mask: false, // body 背景图遮罩
-        maskBg: "rgba(0, 0, 0, 0.2)", // body 背景图遮罩颜色，如果为数字，则是 rgba(0, 0, 0, ${maskBg})，如果为字符串，则作为背景色。mask 为 true 时生效
-    },
+    // bodyBgImg: {
+    //     imgSrc: ["/img/bg1.png"], // body 背景图片链接。单张图片 string | 多张图片 string[], 多张图片时每隔 imgInterval 秒换一张
+    //     imgOpacity: 1, // body 背景图透明度，选值 0.1 ~ 1.0
+    //     imgInterval: 15000, //  body 当多张背景图时（imgSrc 为数组），设置切换时间，单位：毫秒
+    //     imgShuffle: false, // body 背景图是否随机切换，为 false 时按顺序切换
+    //     mask: false, // body 背景图遮罩
+    //     maskBg: "rgba(0, 0, 0, 0.2)", // body 背景图遮罩颜色，如果为数字，则是 rgba(0, 0, 0, ${maskBg})，如果为字符串，则作为背景色。mask 为 true 时生效
+    // },
     themeEnhance: {
         enabled: true, // 启用主题增强功能
         position: "top", // 位置，top 为导航栏右侧，bottom 为右下角
@@ -84,7 +84,7 @@ const teekConfig = defineTeekConfig({
 export default defineConfig({
     extends: teekConfig,
     title: "DowneyRem's Blog",
-    description: "A VitePress Site",
+    description: "唐尼瑞姆的博客",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
