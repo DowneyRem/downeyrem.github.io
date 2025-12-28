@@ -1,0 +1,27 @@
+{
+  "name": "downeyrem.github.io",
+  "version": "1.0.0",
+  "description": "DowneyRem's Blog",
+  "homepage": "https://downeyrem.github.io",
+  "bugs": {
+    "url": "https://github.com/DowneyRem/downeyrem.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DowneyRem/downeyrem.github.io.git"
+  },
+  "license": "ISC",
+  "author": "DowneyRem",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs --host",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress build doc && vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vitepress-theme-teek": "^1.5.4"
+  }
+}
