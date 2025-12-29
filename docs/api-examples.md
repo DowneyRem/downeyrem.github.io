@@ -1,5 +1,15 @@
 ---
-outline: deep
+#outline: deep
+private: true # 开启文章私密
+username: teek # 用户名
+password: teek # 密码
+expire: 2d # 可选，登录失效时间，如果不填则以全局配置为准，全局设置默认为 1d
+session: false # 可选，开启是否在网页关闭或刷新后，清除登录状态，这样再次访问网页，需要重新登录，默认为 false
+strategy: once # 可选，登录策略，once 代表一次登录，always 代表每次访问都登录，默认为 once
+loginInfo: [
+	{ username: "teek1", password: "teek1" }, 
+	{ username: "teek2", password: "teek2" }
+]
 ---
 
 # Runtime API Examples

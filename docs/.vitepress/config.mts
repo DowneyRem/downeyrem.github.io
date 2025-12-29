@@ -281,6 +281,29 @@ const teekConfig = defineTeekConfig({
         enabled: true, // 是否启用文章最近更新栏
         limit: 3, // 文章最近更新栏显示数量
     },
+    private: {
+        enabled: true,
+        expire: "1h",
+        session: true,
+        siteLogin: false,
+        pages: [
+            { username: "teek", password: "teek", expire: "1d", session: true, strategy: "once" },
+        ],
+        realm: {
+            blog: [
+                { username: "teek", password: "teek", expire: "1d", session: true, strategy: "once" },
+            ],
+            comment: [
+                { username: "teek", password: "teek", expire: "1d", session: true, strategy: "always" },
+            ],
+        },
+        // onFocus: (value, formName) => {},
+        // onBlur: (value, formName) => {},
+        // doLogin: (loginInfo, type, nativeExecLogin) => true,
+        // doValidate: (type, frontmatter, nativeExecLogin) => true,
+        // encrypt: (value, frontmatter) => value,
+        // decrypt: (value, frontmatter) => value,
+    },
 });
 
 // VitePress 配置
@@ -308,6 +331,7 @@ export default defineConfig({
             gtag("js", new Date());
             gtag("config", "G-X0J76E1E8Y");`
         ],
+        ["noscript", {}, '<meta http-equiv="refresh" content="0; url={https://www.google.com}">'],
     ],
     themeConfig: {
         // logo: "/favicon.png",
