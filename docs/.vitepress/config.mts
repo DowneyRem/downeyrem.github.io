@@ -305,6 +305,7 @@ const teekConfig = defineTeekConfig({
         // decrypt: (value, frontmatter) => value,
     },
     vitePlugins: {
+        permalink: true,
         sidebarOption: {
             collapsed: false, // true 开启侧边栏折叠功能，并默认折叠，false 开启侧边栏折叠功能，但是默认不折叠
         },
