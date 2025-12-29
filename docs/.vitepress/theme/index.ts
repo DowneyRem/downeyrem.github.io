@@ -3,6 +3,7 @@ import Teek from "vitepress-theme-teek";
 import "vitepress-theme-teek/index.css";
 import ContributeChart from "./components/ContributeChart.vue";
 import CalendarCard from "./components/CalendarCard.vue";
+import SponsorTable from "./components/SponsorTable.vue";
 import { h } from "vue";
 
 export default {
@@ -12,4 +13,7 @@ export default {
             "teek-archives-top-before": () => h(ContributeChart),
             "teek-home-card-my-after": () => h(CalendarCard),
         }),
+    enhanceApp({ app }) {
+        app.component('SponsorTable', SponsorTable);
+    }
 };

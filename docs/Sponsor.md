@@ -1,5 +1,5 @@
 ---
-title: 打赏赞助
+title: 赞助打赏
 date: 2025-12-20
 permalink: Sponsor
 categories:
@@ -9,10 +9,10 @@ tags:
 titleTag:
 top: false
 sticky: 1
-sidebar: true
+sidebar: false
 article: true
 comment: false
-description: 打赏赞助
+description: 赞助打赏
 coverImg: /blog/bg2.png
 docAnalysis: true
 inCatalogue: true
@@ -24,7 +24,7 @@ articleBanner: true
 coverColor: "#395AE3"
 ---
 
-## ☕ 打赏赞助
+## ☕ 赞助打赏
 > [!NOTE]
 > 
 > **如果本站内容对你有帮助，欢迎请博主喝杯咖啡**
@@ -58,6 +58,12 @@ coverColor: "#395AE3"
 > 本表手动更新，数据更新会有少许延迟，还请见谅
 > 
 > 另有：[🅿️ Pixiv 书源 打赏名单](https://downeyrem.github.io/PixivSource/Sponsor) （不与本表同步）
+
+<SponsorTable :data="
+[
+{ name: '静候佳座', time: '2026', channel: '', amount: 0 },
+]
+"/>
 
 
 ## 🙏 感谢上方诸位的支持
