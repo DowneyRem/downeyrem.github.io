@@ -27,9 +27,9 @@ export default defineConfig({
         // ["meta", { name: "description", description }],
         // ["meta", { name: "author", content: "Teeker" }],
         
-        // 优化：预连接到 Google 统计，减少代理环境下的连接延迟
-        // ["link", { rel: "preconnect", href: "https://www.googletagmanager.com" }],
-        // ["link", { rel: "preconnect", href: "https://www.google-analytics.com", crossorigin: "" }],
+        // // 优化：预连接到 Google 统计，减少代理环境下的连接延迟
+        ["link", { rel: "preconnect", href: "https://www.googletagmanager.com" }],
+        ["link", { rel: "preconnect", href: "https://www.google-analytics.com", crossorigin: "" }],
 
         // ["link", { rel: "manifest", href: "/manifest.json" }]
         ["script", {
