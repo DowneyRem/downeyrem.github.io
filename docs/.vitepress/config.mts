@@ -304,6 +304,11 @@ const teekConfig = defineTeekConfig({
         // encrypt: (value, frontmatter) => value,
         // decrypt: (value, frontmatter) => value,
     },
+    vitePlugins: {
+        sidebarOption: {
+            collapsed: false, // true 开启侧边栏折叠功能，并默认折叠，false 开启侧边栏折叠功能，但是默认不折叠
+        },
+    },
 });
 
 // VitePress 配置
