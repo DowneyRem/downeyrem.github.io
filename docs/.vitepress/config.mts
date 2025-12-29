@@ -313,7 +313,7 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: "🏠 首页", link: "/" },
-            { text: "🅿️ Pixiv 书源", link: "/PixivSource" },
+            { text: "🅿️ Pixiv 书源", link: "https://downeyrem.github.io/PixivSource" },
             { text: "📚 兽人阅读", link: "https://t.me/FurryReading" },
         ],
 
