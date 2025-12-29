@@ -3,41 +3,6 @@
 layout: home
 
 tk:
-  banner:
-    enabled: true
-    name: "DowneyRem's Blog"
-    bgStyle: "fullImg"
-    imgSrc:
-      - /blog/bg1.png
-      - /blog/bg2.png
-      - /blog/bg3.png
-    imgInterval: 3000
-    imgShuffle: false
-    imgWaves: true
-    mask: true
-    maskBg: "rgba(0, 0, 0, 0.4)"
-    textColor: "#ffffff"
-    titleFontSize: "3.2rem"
-    descFontSize: "1.4rem"
-    descStyle: "types"
-    typesInTime: 200
-    typesOutTime: 100
-    typesNextTime: 800
-    typesShuffle: false
-  description:
-    - Stay hungry, stay foolish —— Steve Jobs
-    - Done is better than perfect —— FaceBook
-    - Talk is cheap. Show me the code. —— Linus Torvalds
-    - 种一棵树最好的时间是十年前，其次是现在
-    - 不积跬步，无以至千里；不积小流，无以成江海 —— 荀子
-    - 万物皆有裂痕，那是光照进来的地方 —— 萊昂納德·科恩
-    - 不如意事常八九，可与言者无二三
-
-  wallpaper:
-    enabled: true
-    hideBanner: true
-    hideMask: true
-
   blogger:
     name: "唐尼瑞姆"
     slogan: DowneyRem
