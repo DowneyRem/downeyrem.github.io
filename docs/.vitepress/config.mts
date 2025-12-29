@@ -85,11 +85,10 @@ export default defineConfig({
         },
         nav: [
             { text: "🏠 首页", link: "/" },
-            { text: "🅿️ 书源", link: "https://downeyrem.github.io/PixivSource" },
             {
                 text: "🧰 项目",
                 items: [
-                    { text: "🅿️ Pixiv 书源", link: "/PixivSource" },
+                    { text: "🅿️ Pixiv 书源", link: "https://downeyrem.github.io/PixivSource" },
                     { text: "📚 兽人阅读频道", link: "/FurryReading" },
                 ],
             },
