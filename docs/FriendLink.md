@@ -1,21 +1,25 @@
 ---
 title: 友情链接
-date: 2025-12-28
+date: 2025-12-30
 permalink: friendLink
+categories:
+  - 链接
+tags:
+  - 链接
+titleTag:
 top: false
+sticky: 1
 sidebar: false
-article: false
+article: true
 comment: false
-#description: 文章摘要
-#coverImg: /blog/bg1.png
+description: 友情链接
+coverImg: /blog/bg1.png
 docAnalysis: true
 inCatalogue: true
 autoTitle: true
 articleUpdate: true
 inHomePost: true
 sidebarSort: 9999
-#sidebarPrefix: "侧边栏前缀"
-#sidebarSuffix: "侧边栏后缀"
 articleBanner: true
 coverColor: "#395AE3"
 ---
