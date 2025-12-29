@@ -46,6 +46,21 @@ export default defineConfig({
             detailsLabel: "详细信息",
         },
     },
+    sitemap: {
+        hostname: "https://downeyrem.github.io", // ** 换成你的域名
+        transformItems: (items) => {
+            const permalinkItemBak: typeof items = [];
+            // 使用永久链接生成 sitemap
+            const permalinks = (globalThis as any).VITEPRESS_CONFIG.site.themeConfig
+                .permalinks;
+            items.forEach((item) => {
+                const permalink = permalinks?.map[item.url];
+                if (permalink)
+                    permalinkItemBak.push({ url: permalink, lastmod: item.lastmod });
+            });
+            return [...items, ...permalinkItemBak];
+        },
+    },
     themeConfig: {
         // logo: "/favicon.png",
         // siteTitle: false,   // 隐藏站点标题
