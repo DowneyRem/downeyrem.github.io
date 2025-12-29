@@ -37,11 +37,11 @@ coverColor: "#395AE3"
 <div style="display:flex; justify-content:center; align-items:center; gap:40px; margin:20px auto;">
     <div style="text-align:center">
         <h4 style="margin-bottom:12px">🅿️ 支付宝转账</h4>
-        <img width="200" height="200" src="./img/SponsorAlipay.png" alt="支付宝打赏二维码" style="border:1px solid #eee; border-radius:8px; padding:8px;" />
+        <img width="200" height="200" src="/img/SponsorAlipay.png" alt="支付宝打赏二维码" style="border:1px solid #eee; border-radius:8px; padding:8px;" />
     </div>
     <div style="text-align:center">
         <h4 style="margin-bottom:12px">💬 微信赞赏</h4>
-        <img width="200" height="200" src="./img/SponsorWechatReward.png" alt="微信赞赏二维码" style="border:1px solid #eee; border-radius:8px; padding:8px;" />
+        <img width="200" height="200" src="/img/SponsorWechatReward.png" alt="微信赞赏二维码" style="border:1px solid #eee; border-radius:8px; padding:8px;" />
     </div>
 </div>
 
