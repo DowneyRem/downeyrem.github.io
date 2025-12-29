@@ -363,7 +363,13 @@ export default defineConfig({
         nav: [
             { text: "🏠 首页", link: "/" },
             { text: "🅿️ Pixiv 书源", link: "https://downeyrem.github.io/PixivSource" },
-            { text: "📚 兽人阅读", link: "https://t.me/FurryReading" },
+            {
+                text: "🚧 开发项目",
+                items: [
+                    { text: "🅿️ Pixiv 书源", link: "https://downeyrem.github.io/PixivSource" },
+                    { text: "📚 兽人阅读频道", link: "https://t.me/FurryReading" },
+                ],
+            },
         ],
 
         socialLinks: [
