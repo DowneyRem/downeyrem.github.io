@@ -30,6 +30,22 @@ export default defineConfig({
         ],
         ["noscript", {}, '<meta http-equiv="refresh" content="0; url={https://www.google.com}">'],
     ],
+    markdown: {
+        // 开启行号
+        lineNumbers: true,
+        image: {
+            // 默认禁用；设置为 true 可为所有图片启用懒加载。
+            lazyLoading: true,
+        },
+        // 更改容器默认值标题
+        container: {
+            tipLabel: "提示",
+            warningLabel: "警告",
+            dangerLabel: "危险",
+            infoLabel: "信息",
+            detailsLabel: "详细信息",
+        },
+    },
     themeConfig: {
         // logo: "/favicon.png",
         // siteTitle: false,   // 隐藏站点标题
@@ -87,17 +103,6 @@ export default defineConfig({
                         }
                     }
                 }
-            }
-        }
-    },
-    markdown: {
-        config: (md) => {
-            // 新增：自动为所有图片添加懒加载属性，解决加载竞争导致的跳转慢问题
-            md.renderer.rules.image = (tokens, idx, options, env, self) => {
-                const token = tokens[idx]
-                token.attrSet('loading', 'lazy')    // 开启懒加载
-                token.attrSet('decoding', 'async')  // 异步渲染图片
-                return self.renderToken(tokens, idx, options)
             }
         }
     },
