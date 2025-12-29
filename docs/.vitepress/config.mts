@@ -15,6 +15,17 @@ export default defineConfig({
     appearance: true,       // 默认主题由用户配色方案决定
     lastUpdated: true,      // 获取页面最后更新的时间戳
     head: [
+        ['link', { rel: 'icon', type: 'image/png', href: "/favicon.png" }],
+        ["meta", { property: "og:type", content: "website" }],
+        ["meta", { property: "og:locale", content: "zh-CN" }],
+        // ["meta", { property: "og:title", content: "Teek | Vitepress Theme Teek" }],
+        // ["meta", { property: "og:site_name", content: "VitePress Theme Teek" }],
+        ["meta", { property: "og:image", content: "/favicon.png" }],
+        // ["meta", { property: "og:url", content: "https://vp.teek.top" }],
+        // ["meta", { property: "og:description", description }],
+        // ["meta", { name: "description", description }],
+        // ["meta", { name: "author", content: "Teeker" }],
+        
         // 优化：预连接到 Google 统计，减少代理环境下的连接延迟
         ["link", { rel: "preconnect", href: "https://www.googletagmanager.com" }],
         ["link", { rel: "preconnect", href: "https://www.google-analytics.com", crossorigin: "" }],
@@ -64,8 +75,8 @@ export default defineConfig({
 
     // https://vitepress.dev/reference/default-theme-config
     themeConfig: {
-        // logo: "/favicon.png",
-        // siteTitle: false,   // 隐藏站点标题
+        logo: "/favicon.png",
+        siteTitle: "DowneyRem",   // 隐藏站点标题
         lightModeSwitchTitle: "",
         darkModeSwitchLabel: "",
         sidebarMenuLabel: "菜单",
