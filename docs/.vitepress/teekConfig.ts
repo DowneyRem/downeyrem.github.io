@@ -292,7 +292,7 @@ export const teekConfig = defineTeekConfig({
         },
         {
             icon: "mdi:telegram",
-            name: "Gitee",
+            name: "Telegram",
             link: "https://t.me/DowneyRem",
         },
         {
