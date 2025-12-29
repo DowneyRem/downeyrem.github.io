@@ -85,25 +85,27 @@ export default defineConfig({
         },
         nav: [
             { text: "🏠 首页", link: "/" },
-            { text: "🅿️ Pixiv 书源", link: "https://downeyrem.github.io/PixivSource" },
+            { text: "🅿️ 书源", link: "https://downeyrem.github.io/PixivSource" },
             {
-                text: "🚧 开发项目",
+                text: "🚧 项目",
                 items: [
                     { text: "🅿️ Pixiv 书源", link: "https://downeyrem.github.io/PixivSource" },
-                    { text: "📚 兽人阅读频道", link: "https://t.me/FurryReading" },
+                    { text: "📚 兽人阅读", link: "https://t.me/FurryReading" },
                 ],
             },
             {
-                text: "功能页",
+                text: "🐲 关于",
                 items: [
-                    { text: "归档页", link: "/archives" },
-                    { text: "清单页", link: "/articleOverview" },
-                    { text: "登录页", link: "/login" },
-                    { text: "分类页", link: "/categories" },
-                    { text: "标签页", link: "/tags" },
+                    { text: "🐲 关于本龙", link: "/about" },
+                    { text: "🤝 友情链接", link: "/friendLink" },
+                    { text: "📚 文章归档", link: "/archives" },
+                    { text: "📃 文章清单", link: "/articleOverview" },
+                    { text: "🔐 登录页面", link: "/login" },
+                    { text: "📂 文章分类", link: "/categories" },
+                    { text: "#️⃣ 文章标签", link: "/tags" },
                 ],
             },
-            { text: "✨ 赞赏", link: "/personal/" },
+            { text: "☕️ 赞赏", link: "/about" },
         ],
 
         socialLinks: [
