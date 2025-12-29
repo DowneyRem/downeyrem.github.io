@@ -8,9 +8,9 @@ tk:
     name: "DowneyRem's Blog"
     bgStyle: "fullImg"
     imgSrc:
-      - /img/bg1.png
-      - /img/bg2.png
-      - /img/bg3.png
+      - /blog/bg1.png
+      - /blog/bg2.png
+      - /blog/bg3.png
     imgInterval: 3000
     imgShuffle: false
     imgWaves: true
@@ -43,7 +43,7 @@ tk:
     slogan: DowneyRem
     avatar: https://www.github.com/DowneyRem.png
     shape: circle-rotate
-    circleBgImg: /img/bg0.png
+    circleBgImg: /blog/bg0.png
     circleBgMask: true
     circleSize: 100
     color: #ffffff
