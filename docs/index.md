@@ -24,9 +24,14 @@ tk:
     typesNextTime: 800
     typesShuffle: false
   description:
-    - 故事由我书写，旅程由你见证，传奇由她聆听 —— 来自 Young Kbt
-    - 积跬步以至千里，致敬每个爱学习的你 —— 来自 Evan Xu
-  
+    - Stay hungry, stay foolish —— Steve Jobs
+    - Done is better than perfect —— FaceBook
+    - Talk is cheap. Show me the code. —— Linus Torvalds
+    - 种一棵树最好的时间是十年前，其次是现在
+    - 不积跬步，无以至千里；不积小流，无以成江海 —— 荀子
+    - 万物皆有裂痕，那是光照进来的地方 —— 萊昂納德·科恩
+    - 不如意事常八九，可与言者无二三
+
   wallpaper:
     enabled: true
     hideBanner: true
