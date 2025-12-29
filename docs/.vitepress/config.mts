@@ -89,7 +89,6 @@ export default defineConfig({
             {
                 text: "🚧 项目",
                 items: [
-                    { text: "🅿️ Pixiv 书源", link: "https://downeyrem.github.io/PixivSource" },
                     { text: "🅿️ Pixiv 书源", link: "/PixivSource" },
                     { text: "📚 兽人阅读频道", link: "/FurryReading" },
                 ],
