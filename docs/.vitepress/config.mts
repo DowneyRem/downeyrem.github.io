@@ -310,6 +310,25 @@ export default defineConfig({
         ],
     ],
     themeConfig: {
+        // logo: "/favicon.png",
+        // siteTitle: false,   // 隐藏站点标题
+        outline: {
+            level: [2, 3],     // H2 H3 标题
+            label: '本页目录'
+        },
+        returnToTopLabel: "回到顶部",
+        lightModeSwitchTitle: "",
+        sidebarMenuLabel: "菜单",
+        lastUpdated: { text: '上次更新'},
+        editLink: {
+            pattern: "https://github.com/DowneyRem/downeyrem.github.io/blob/main/docs/:path",
+            text: "在 GitHub 上编辑本文"
+        },
+        docFooter: {
+            prev: '上一页',
+            next: '下一页'
+        },
+
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: "🏠 首页", link: "/" },
