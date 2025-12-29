@@ -7,7 +7,7 @@ categories:
 tags:
   - 链接
 titleTag:
-top: false
+top: true
 sticky: 1
 sidebar: false
 article: true

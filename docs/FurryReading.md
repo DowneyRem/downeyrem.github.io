@@ -10,7 +10,7 @@ tk:
       link: 
 
 layout: home
-title: 兽人阅读频道 @FurryReading
+title: 兽人阅读频道
 description: 众人分享的，精品小说频道。根植 Telegram 平台，为读者推荐小说，为作者宣发小说
 
 hero:

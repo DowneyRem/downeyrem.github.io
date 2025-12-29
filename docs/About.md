@@ -6,8 +6,8 @@ categories:
   - 链接
 tags:
   - 链接
-titleTag: 
-top: false
+titleTag:
+top: true
 sticky: 1
 sidebar: false
 article: true

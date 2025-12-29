@@ -61,7 +61,7 @@ coverColor: "#395AE3"
 
 <SponsorTable :data="
 [
-{ name: '静候佳座', time: '2026', channel: '', amount: 0 },
+{ name: '虚位以待', time: '2026', channel: '', amount: 0 },
 ]
 "/>
 
