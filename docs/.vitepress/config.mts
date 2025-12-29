@@ -87,10 +87,20 @@ export default defineConfig({
             { text: "🏠 首页", link: "/" },
             { text: "🅿️ 书源", link: "https://downeyrem.github.io/PixivSource" },
             {
-                text: "🚧 项目",
+                text: "🧰 项目",
                 items: [
                     { text: "🅿️ Pixiv 书源", link: "/PixivSource" },
                     { text: "📚 兽人阅读频道", link: "/FurryReading" },
+                ],
+            },
+            {
+                text: "🔍 索引",
+                items: [
+                    { text: "📚 文章归档", link: "/archives" },
+                    { text: "📃 文章清单", link: "/articleOverview" },
+                    { text: "📂 文章分类", link: "/categories" },
+                    { text: "#️⃣ 文章标签", link: "/tags" },
+                    { text: "🔐 登录页面", link: "/login" },
                 ],
             },
             {
@@ -98,11 +108,7 @@ export default defineConfig({
                 items: [
                     { text: "🐲 关于本龙", link: "/about" },
                     { text: "🤝 友情链接", link: "/friendLink" },
-                    { text: "📚 文章归档", link: "/archives" },
-                    { text: "📃 文章清单", link: "/articleOverview" },
-                    { text: "🔐 登录页面", link: "/login" },
-                    { text: "📂 文章分类", link: "/categories" },
-                    { text: "#️⃣ 文章标签", link: "/tags" },
+                    { text: "☕️ 赞助打赏", link: "/Sponsor" },
                 ],
             },
             { text: "☕️ 赞赏", link: "/Sponsor" },
