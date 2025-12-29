@@ -47,6 +47,7 @@ export const teekConfig = defineTeekConfig({
     //     mask: false, // body 背景图遮罩
     //     maskBg: "rgba(0, 0, 0, 0.2)", // body 背景图遮罩颜色，如果为数字，则是 rgba(0, 0, 0, ${maskBg})，如果为字符串，则作为背景色。mask 为 true 时生效
     // },
+
     themeEnhance: {
         enabled: true, // 启用主题增强功能
         position: "top", // 位置，top 为导航栏右侧，bottom 为右下角
@@ -77,6 +78,7 @@ export const teekConfig = defineTeekConfig({
             defaultValue: true, // 聚光灯默认开关状态
         },
     },
+
     // siteAnalytics: [
     //     {
     //         provider: "google",
@@ -91,6 +93,7 @@ export const teekConfig = defineTeekConfig({
     //         },
     //     },
     // ],
+
     banner: {
         enabled: true, // 是否启用 Banner
         name: "DowneyRem's Blog", // Banner 标题，默认读取 vitepress 的 title 属性
@@ -128,13 +131,14 @@ export const teekConfig = defineTeekConfig({
         typesNextTime: 800, // 打字与删字的间隔时间，单位：毫秒。descStyle 为 types 时生效
         typesShuffle: false, // 描述信息是否随机打字，为 false 时按顺序打字，descStyle 为 types 时生效
     },
+
     wallpaper: {
         enabled: false, // 是否启用壁纸模式
         hideBanner: true, // 开启壁纸模式后，是否隐藏 Banner
         hideMask: true, // 开启壁纸模式后，是否隐藏 Banner 或 bodyBgImage 的遮罩层，则确保 banner.mask 和 bodyBgImage.mask 为 true 才生效
     },
 
-
+    // 文章列表
     post: {
         postStyle: "list", // 文章列表风格
         excerptPosition: "top", // 文章摘要位置
@@ -150,6 +154,7 @@ export const teekConfig = defineTeekConfig({
         cardStyleTitleTagPosition: "left", // 卡片模式下的标题标签位置（postStyle 为 card）
         defaultCoverImg: [], // 默认封面图地址，如果不设置封面图则使用默认封面图地址
     },
+
     page: {
         disabled: false, // 是否禁用
         pageSize: 10, // 每页显示条目数
@@ -160,6 +165,97 @@ export const teekConfig = defineTeekConfig({
         hideOnSinglePage: false, // 只有一页时是否隐藏
         // ...
     },
+
+    // 卡片栏：
+    homeCardListPosition: "right",
+    homeCardSort: ["topArticle", "category", "tag", "friendLink", "docAnalysis"],
+
+    tagColor: [
+        { border: "#bfdbfe", bg: "#eff6ff", text: "#2563eb" },
+        { border: "#e9d5ff", bg: "#faf5ff", text: "#9333ea" },
+        { border: "#fbcfe8", bg: "#fdf2f8", text: "#db2777" },
+        { border: "#a7f3d0", bg: "#ecfdf5", text: "#059669" },
+        { border: "#fde68a", bg: "#fffbeb", text: "#d97706" },
+        { border: "#a5f3fc", bg: "#ecfeff", text: "#0891b2" },
+        { border: "#c7d2fe", bg: "#eef2ff", text: "#4f46e5" },
+    ],
+
+    blogger: {
+        name: "唐尼瑞姆", // 博主昵称
+        // slogan: "朝圣的使徒，正在走向编程的至高殿堂！", // 博主签名
+        avatar: "https://www.github.com/DowneyRem.png", // 博主头像
+        shape: "circle-rotate", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转，circle-rotate-last 将会持续旋转 59s
+        circleBgImg: "/blog/bg0.png", // 背景图片
+        circleBgMask: true, // 遮罩层是否显示，仅当 shape 为 circle 且 circleBgImg 配置时有效
+        circleSize: 100, // 头像大小
+        color: "#ffffff", // 字体颜色
+        // 状态，仅当 shape 为 circle 相关值时有效
+        status: {
+            icon: "😪", // 状态图标
+            size: 24, // 图标大小
+            title: "困", // 鼠标悬停图标的提示语
+        },
+    },
+
+    topArticle: {
+        enabled: true, // 是否启用精选文章卡片
+        title: "📌精选文章", // 卡片标题
+        emptyLabel: "暂无精选文章", // 精选文章为空时的标签
+        limit: 5, // 一页显示的数量
+        autoPage: false, // 是否自动翻页
+        pageSpeed: 4000, // 翻页间隔时间，单位：毫秒。autoPage 为 true 时生效
+        dateFormat: "yyyy-MM-dd", // 精选文章的日期格式
+    },
+
+    category: {
+        enabled: true, // 是否启用分类卡片
+        path: "/categories", // 分类页访问地址
+        pageTitle: "📚全部分类", // 分类页卡片标题
+        homeTitle: "📁文章分类", // 卡片标题
+        moreLabel: "更多 ...", // 查看更多分类标签
+        emptyLabel: "暂无文章分类", // 分类为空时的标签
+        limit: 5, // 一页显示的数量
+        autoPage: false, // 是否自动翻页
+        pageSpeed: 4000, // 翻页间隔时间，单位：毫秒。autoPage 为 true 时生效
+    },
+
+    tag: {
+        enabled: true, // 是否启用标签卡片
+        path: "/tags", // 标签页访问地址
+        pageTitle: "📚全部标签", // 标签页页卡片标题
+        homeTitle: "🔥热门标签", // 卡片标题
+        moreLabel: "更多 ...", //  查看更多分类标签
+        emptyLabel: "暂无标签", // 标签为空时的标签
+        limit: 21, // 一页显示的数量
+        autoPage: false, // 是否自动翻页
+        pageSpeed: 4000, // 翻页间隔时间，单位：毫秒。autoPage 为 true 时生效
+    },
+
+    friendLink: {
+        enabled: true, // 是否启用友情链接卡片
+        list: [
+            {
+                name: "Pixiv 书源",
+                desc: "最好的 Pixiv 小说阅读器",
+                avatar: "https://downeyrem.github.io/PixivSource/favicon-512x512.png",
+                link: "https://downeyrem.github.io/PixivSource",
+            },
+            {
+                name: "兽人阅读",
+                desc: "兽人小说，精品阅读",
+                avatar: "/img/FurryReading.jpg",
+                link: "https://t.me/FurryReading",
+            },
+        ], // 友情链接数据列表
+        title: "🤝友情链接", // 卡片标题
+        emptyLabel: "暂无友情链接", // 友情链接为空时的标签
+        limit: 5, // 一页显示的数量
+        autoScroll: false, // 是否自动滚动
+        scrollSpeed: 2500, // 滚动间隔时间，单位：毫秒。autoScroll 为 true 时生效
+        autoPage: false, // 是否自动翻页
+        pageSpeed: 4000, // 翻页间隔时间，单位：毫秒。autoPage 为 true 时生效
+    },
+
     docAnalysis: {
         enabled: true, // 是否启用站点信息卡片
         createTime: "2025-12-31", // 站点创建时间
