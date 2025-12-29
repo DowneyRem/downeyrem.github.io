@@ -174,6 +174,11 @@ export default defineConfig({
     extends: teekConfig,
     title: "DowneyRem's Blog",
     description: "唐尼瑞姆的博客",
+    lang: "zh-CN",
+    cleanUrls: true,        // 简洁URL
+    ignoreDeadLinks: true,  // 忽略死链
+    appearance: true,       // 默认主题由用户配色方案决定
+    lastUpdated: true,      // 获取页面最后更新的时间戳
     head: [
         // 优化：预连接到 Google 统计，减少代理环境下的连接延迟
         ["link", { rel: "preconnect", href: "https://www.googletagmanager.com" }],
