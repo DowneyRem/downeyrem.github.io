@@ -374,6 +374,9 @@ export default defineConfig({
 
         socialLinks: [
             { icon: "github", link: "https://github.com/DowneyRem" },
+            { icon: "telegram", link: "https://t.me/DowneyRem" },
+            { icon: "twitter", link: "https://x.com/DowneyRemDragon" },
+            { icon: "pixiv", link: "https://www.pixiv.net/users/119908520" },
         ],
         search: {
             provider: "local",
