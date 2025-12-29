@@ -232,7 +232,7 @@ export const teekConfig = defineTeekConfig({
     },
 
     friendLink: {
-        enabled: true, // 是否启用友情链接卡片
+        enabled: false, // 是否启用友情链接卡片
         list: [
             {
                 name: "Pixiv 书源",
