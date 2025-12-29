@@ -16,6 +16,7 @@ export default defineConfig({
     lastUpdated: true,      // 获取页面最后更新的时间戳
     head: [
         ['link', { rel: 'icon', type: 'image/png', href: "/favicon.png" }],
+        ["meta", { property: "google-site-verification", content: "Mce6VS2aBjfn1zAt9rSsrEKeNj2ZO9lNqYLroPbBY6s" }],
         ["meta", { property: "og:type", content: "website" }],
         ["meta", { property: "og:locale", content: "zh-CN" }],
         // ["meta", { property: "og:title", content: "Teek | Vitepress Theme Teek" }],
@@ -27,8 +28,8 @@ export default defineConfig({
         // ["meta", { name: "author", content: "Teeker" }],
         
         // 优化：预连接到 Google 统计，减少代理环境下的连接延迟
-        ["link", { rel: "preconnect", href: "https://www.googletagmanager.com" }],
-        ["link", { rel: "preconnect", href: "https://www.google-analytics.com", crossorigin: "" }],
+        // ["link", { rel: "preconnect", href: "https://www.googletagmanager.com" }],
+        // ["link", { rel: "preconnect", href: "https://www.google-analytics.com", crossorigin: "" }],
 
         // ["link", { rel: "manifest", href: "/manifest.json" }]
         ["script", {
