@@ -105,7 +105,7 @@ export default defineConfig({
                     { text: "#️⃣ 文章标签", link: "/tags" },
                 ],
             },
-            { text: "☕️ 赞赏", link: "/PixivSource/Sponsor" },
+            { text: "☕️ 赞赏", link: "/Sponsor" },
         ],
 
         socialLinks: [
