@@ -21,6 +21,7 @@
     "docs:preview": "vitepress build docs && vitepress preview docs"
   },
   "devDependencies": {
+    "echarts": "^6.0.0",
     "vitepress": "^1.6.4",
     "vitepress-theme-teek": "^1.5.4"
   }

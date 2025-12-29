@@ -1,6 +1,8 @@
 ---
 title: 归档
 permalink: /archives
+article: false
+sidebar: false
 layout: TkCataloguePage
 totalCount: 总共 {count} 篇文章
 year: 年
