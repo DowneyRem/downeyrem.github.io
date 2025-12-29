@@ -47,10 +47,6 @@ tk:
     circleBgMask: true
     circleSize: 100
     color: #ffffff
-    status:
-      icon: 😪
-      size: 24
-      title: "困"
 
   topArticle:
     enabled: true
