@@ -74,7 +74,7 @@ const teekConfig = defineTeekConfig({
         },
     },
     author: {
-        name: "DowneyRem", // 作者名称
+        name: "唐尼瑞姆", // 作者名称
         link: "https://github.com/DowneyRem", // 点击作者名称后跳转的链接
     },
     // siteAnalytics: [
