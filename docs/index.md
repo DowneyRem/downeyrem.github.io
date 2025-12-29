@@ -9,8 +9,9 @@ tk:
     bgStyle: "fullImg"
     imgSrc:
       - /img/bg1.png
-#      - /img/bg2.jpg
-    imgInterval: 15000
+      - /img/bg2.png
+      - /img/bg3.png
+    imgInterval: 3000
     imgShuffle: false
     imgWaves: true
     mask: true
@@ -39,10 +40,10 @@ tk:
 
   blogger:
     name: "唐尼瑞姆"
-#    slogan: 朝圣的使徒，正在走向编程的至高殿堂！
+    slogan: DowneyRem
     avatar: https://www.github.com/DowneyRem.png
     shape: circle-rotate
-#    circleBgImg: /blog/bg4.webp
+    circleBgImg: /img/bg0.png
     circleBgMask: true
     circleSize: 100
     color: #ffffff
