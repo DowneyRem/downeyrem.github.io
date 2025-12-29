@@ -144,6 +144,28 @@ const teekConfig = defineTeekConfig({
         // 自定义额外信息
         // appendInfo: [{ key: "index", label: "序号", value: "天客 99" }],
     },
+    social: [
+        {
+            icon: "mdi:github",
+            name: "GitHub",
+            link: "https://github.com/DowneyRem",
+        },
+        {
+            icon: "mdi:telegram",
+            name: "Gitee",
+            link: "https://t.me/DowneyRem",
+        },
+        {
+            icon: "mdi:twitter",
+            name: "Twitter",
+            link: "https://x.com/DowneyRemDragon",
+        },
+        {
+            icon: "https://asset.brandfetch.io/idIlKj_n7C/idSsbP7h1m.png",
+            name: "Pixiv",
+            link: "https://www.pixiv.net/users/119908520",
+        },
+    ],
 });
 
 // VitePress 配置
@@ -177,8 +199,6 @@ export default defineConfig({
 
         socialLinks: [
             { icon: "github", link: "https://github.com/DowneyRem" },
-            { icon: "telegram", link: "https://t.me/DowneyRem" },
-            { icon: "twitter", link: "https://x.com/DowneyRemDragon" },
         ]
     }
 })
