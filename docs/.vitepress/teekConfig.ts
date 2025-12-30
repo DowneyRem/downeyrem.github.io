@@ -450,6 +450,26 @@ export const teekConfig = defineTeekConfig({
         sidebarOption: {
             collapsed: false, // true 开启侧边栏折叠功能，并默认折叠，false 开启侧边栏折叠功能，但是默认不折叠
         },
+        autoFrontmatter: true,
+        autoFrontmatterOption: {
+            permalink: false,
+            permalinkRules: [
+                // { folderName: "01.guide", rule: "/$path/$uuid6" }, // 使用一级目录的哈希混合随机数，$path 最终等于 guide
+            //     { folderName: "10.配置", rule: "/reference/$uuid6" }, // 使用混合固定字符串和随机数
+            //     { folderName: "15.主题开发", rule: "/willRemove/develop/$uuid6", removeLevel: 1 }, // 先移除一层前缀，再添加前缀，等价于 /develop/$uuid6
+            //     { folderName: "20.资源", rule: "/test-$uuid4-$uuid2/aaa/" }, // 使用混合固定字符串和随机数
+            //     { folderName: "30.生态", rule: "/$path-$uuid2/teek/$uuid" }, // 使用一级目录的哈希混合随机数
+            //     // { folderName: "*" }, // '*' 代表所有文件都生成永久链接，不设置 rule 则默认为 /$path/$uuid6
+            ],
+            categories: false,
+            coverImg: true, // 开启自动生成封面图链接功能
+            // forceCoverImg: true, // 强制重新生成 coverImg 的属性值
+            coverImgList: [
+                "/blog/bg1.png",
+                "/blog/bg2.png"
+                ], // 封面图链接数组
+
+        },
     },
 
 });
