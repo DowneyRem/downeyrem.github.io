@@ -1,11 +1,11 @@
 ---
 title: 文档模板
 date: 2025-12-28
-#permalink: ArchivedNotice
+permalink: Template
 categories:
-	- 模板
+  - 模板
 tags:
-	- 模板
+  - 模板
 titleTag: 
 top: false
 sticky: 1
@@ -20,10 +20,8 @@ autoTitle: true
 articleUpdate: true
 inHomePost: true
 sidebarSort: 9999
-#sidebarPrefix: "侧边栏前缀"
-#sidebarSuffix: "侧边栏后缀"
 articleBanner: true
-coverColor: "#395AE3"
+coverColor: #395AE3
 ---
 
 # Markdown Extension Examples
