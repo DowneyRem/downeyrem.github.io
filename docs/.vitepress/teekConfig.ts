@@ -445,6 +445,9 @@ export const teekConfig = defineTeekConfig({
         // encrypt: (value, frontmatter) => value,
         // decrypt: (value, frontmatter) => value,
     },
+    // post: {
+    //     coverImgMode: "full",
+    // },
     vitePlugins: {
         permalink: true,
         sidebarOption: {
