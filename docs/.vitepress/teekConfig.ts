@@ -69,6 +69,22 @@ export const teekConfig = defineTeekConfig({
             defaultSpread: false, // 是否将主题色扩散到其他元素（根据主题色计算其他元素需要的颜色）
             disableHelp: false, // 禁用帮助提示
             disabledInMobile: false, // 是否在移动端禁用
+            // append: [
+            //     {
+            //         label: "博客扩展主题", // 主题组名称
+            //         tip: "博客扩展主题", // 主题组提示信息，鼠标悬停时显示
+            //         options: [
+            //             { label: "紫罗兰", value: "violet", color: "#7166f0" },
+            //             { label: "珊瑚粉", value: "coral-pink", color: "#ff6b6b" },
+            //             { label: "天蓝", value: "sky-blue", color: "#00bbf9" },
+            //             { label: "蓝绿", value: "blue-green", color: "#00f5d4" },
+            //             { label: "石板灰", value: "slate-gray", color: "#708090" },
+            //             { label: "粉红", value: "pink", color: "#f15bb5" },
+            //             { label: "黄绿", value: "yellow-green", color: "#8ac926" },
+            //             { label: "橙红", value: "orange-red", color: "#ff9e6b" },
+            //         ],
+            //     },
+            // ],
         },
         // 聚光灯配置
         spotlight: {
