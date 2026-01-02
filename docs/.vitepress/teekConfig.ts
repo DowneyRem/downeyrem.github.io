@@ -125,7 +125,7 @@ export const teekConfig = defineTeekConfig({
         bgStyle: "fullImg", // Banner 背景风格：pure 为纯色背景，partImg 为局部图片背景，fullImg 为全屏图片背景
         pureBgColor: "#28282d", // Banner 背景色，bgStyle 为 pure 时生效
         imgSrc: wallPapper, // Banner 图片链接。bgStyle 为 partImg 或 fullImg 时生效
-        imgInterval: 3000, // 当多张图片时（imgSrc 为数组），设置切换时间，单位：毫秒
+        imgInterval: 5000, // 当多张图片时（imgSrc 为数组），设置切换时间，单位：毫秒
         imgShuffle: false, // 图片是否随机切换，为 false 时按顺序切换，bgStyle 为 partImg 或 fullImg 时生效
         imgWaves: true, // 是否开启 Banner 图片波浪纹，bgStyle 为 fullImg 时生效
         mask: true, // Banner 图片遮罩，bgStyle 为 partImg 或 fullImg 时生效
