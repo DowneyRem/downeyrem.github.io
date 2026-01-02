@@ -1,19 +1,18 @@
 ---
 title: 赞助打赏
-date: 2025-12-20
+date: 2025-12-20 16:00:00
 permalink: Sponsor
 categories:
   - 链接
 tags:
   - 链接
-titleTag:
+titleTag: null
 top: false
 sticky: 1
 sidebar: false
 article: true
 comment: false
 description: 赞助打赏
-coverImg: /blog/bg2.png
 docAnalysis: true
 inCatalogue: true
 autoTitle: true
@@ -21,7 +20,8 @@ articleUpdate: true
 inHomePost: true
 sidebarSort: 9999
 articleBanner: true
-coverColor: "#395AE3"
+coverColor: null
+coverImg: /blog/DragaliaLost/4.png
 ---
 
 ## ☕ 赞助打赏

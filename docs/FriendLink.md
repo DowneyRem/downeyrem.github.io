@@ -1,19 +1,18 @@
 ---
 title: 友情链接
-date: 2025-12-30
+date: 2025-12-30 16:00:00
 permalink: friendLink
 categories:
   - 链接
 tags:
   - 链接
-titleTag:
+titleTag: null
 top: true
 sticky: 1
 sidebar: false
 article: true
 comment: false
 description: 友情链接
-coverImg: /blog/bg1.png
 docAnalysis: true
 inCatalogue: true
 autoTitle: true
@@ -21,7 +20,8 @@ articleUpdate: true
 inHomePost: true
 sidebarSort: 9999
 articleBanner: true
-coverColor: "#395AE3"
+coverColor: null
+coverImg: /blog/DragaliaLost/3.png
 ---
 
 ## 本站链接 & 本龙项目

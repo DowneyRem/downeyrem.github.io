@@ -485,7 +485,7 @@ export const teekConfig = defineTeekConfig({
             ],
             categories: false,
             coverImg: true, // 开启自动生成封面图链接功能
-            // forceCoverImg: true, // 强制重新生成 coverImg 的属性值
+            forceCoverImg: false, // 强制重新生成 coverImg 的属性值
             coverImgList: wallPapper, // 封面图链接数组
 
         },

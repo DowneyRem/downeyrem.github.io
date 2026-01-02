@@ -1,19 +1,18 @@
 ---
 title: 关于本龙
-date: 2025-12-30
+date: 2025-12-31 00:00:00
 permalink: About
 categories:
   - 链接
 tags:
   - 链接
-titleTag:
+titleTag: null
 top: true
 sticky: 1
 sidebar: false
 article: true
 comment: false
 description: 关于本龙
-coverImg: /blog/bg3.png
 docAnalysis: true
 inCatalogue: true
 autoTitle: true
@@ -21,7 +20,8 @@ articleUpdate: true
 inHomePost: true
 sidebarSort: 9999
 articleBanner: true
-coverColor: "#395AE3"
+coverColor: null
+coverImg: /blog/Others/1.png
 ---
 
 ## 程序项目

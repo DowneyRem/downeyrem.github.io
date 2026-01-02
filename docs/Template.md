@@ -1,19 +1,18 @@
 ---
 title: 文档模板
-date: 2025-12-28
+date: 2025-12-28 16:00:00
 permalink: Template
 categories:
   - 模板
 tags:
   - 模板
-titleTag: 
+titleTag: null
 top: false
 sticky: 1
 sidebar: true
 article: true
 comment: true
 description: 文章摘要
-coverImg: /blog/bg1.png
 docAnalysis: true
 inCatalogue: true
 autoTitle: true
@@ -21,7 +20,8 @@ articleUpdate: true
 inHomePost: true
 sidebarSort: 9999
 articleBanner: true
-coverColor: #395AE3
+coverColor: null
+coverImg: /blog/DragaliaLost/2.png
 ---
 
 # Markdown Extension Examples
