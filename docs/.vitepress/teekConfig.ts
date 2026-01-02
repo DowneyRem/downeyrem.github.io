@@ -153,7 +153,7 @@ export const teekConfig = defineTeekConfig({
 
     wallpaper: {
         enabled: true, // 是否启用壁纸模式
-        hideBanner: true, // 开启壁纸模式后，是否隐藏 Banner
+        hideBanner: false, // 开启壁纸模式后，是否隐藏 Banner
         hideMask: true, // 开启壁纸模式后，是否隐藏 Banner 或 bodyBgImage 的遮罩层，则确保 banner.mask 和 bodyBgImage.mask 为 true 才生效
     },
 
