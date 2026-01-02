@@ -27,47 +27,16 @@ coverImg: /blog/DragaliaLost/1.png
 ![img](/blog/DragaliaLost/1.png)
 
 
-## 一个念头
+## 💡 一个念头
 &emsp;&emsp;很久之前，大概是大学期间，一直有一个想开博客的想法。
 
-&emsp;&emsp;虽然此时移动互联网早已兴起，各种记录生活 APP 形形色色、林林总总，可以表达的平台五花八门、不胜枚举。
-
-> &emsp;&emsp;我们已经进入了一个名副其实的“微时代”。微博、微信、微贷、微电影、微小说、微媒体、微广告、微支付、微管理、微投资……
-> 
-> &emsp;&emsp;所有这些以去中心化、碎片化、零散化、即时化为特征的新兴文化形态、传播方式乃至经济活动形态、生活形态，已经在潜移默化中重新定义了我们的生活。
->
-> &emsp;&emsp;可以说，“微”已经成为理解我们这个时代的一个关键词。
->
-> 《微时代的微文化》陶东风《人民文摘》（2014年第11期）
-> 
-> https://paper.people.com.cn/rmwz/html/2014-11/01/content_1524596.htm
--
-&emsp;&emsp;但海量的、碎片化的信息，似乎只能消磨时光。其所提供的实际信息，常常作用有限。
-
-&emsp;&emsp;只言片语，并不总是微言大义。
-
-
-## [点赞之交](https://baike.baidu.com/item/%E7%82%B9%E8%B5%9E%E4%B9%8B%E4%BA%A4)
-&emsp;&emsp;高中时期，在我刚用上微信没几个月的时候，我就关掉了朋友圈，关掉了这个过于完美的“虚假”世界。当时有一句话，至今应该也成立——朋友圈的雪永远是最大的。
-
-&emsp;&emsp;大学时期，就定下了一条看似奇怪的规矩——每年发 QQ 空间的动态不得多余10条。这几个词语，应该能很好描述当时的心态和想法：
-
-- 朕已阅
-- [点赞之交](https://baike.baidu.com/item/%E7%82%B9%E8%B5%9E%E4%B9%8B%E4%BA%A4)
-
-&emsp;&emsp;打开 QQ 空间、微信朋友圈、微博，随便什么都好。一条一条刷下去，看着一幅幅精美插图，读着面前或稀疏或密集的文字，随手按下一个点赞、喜欢、转发。已阅、已阅、已阅……
-
-&emsp;&emsp;你和你的朋友们都是点赞之交。你们交往这么久，私聊里也没说过什么话。你不清楚什么时候会和他（再次）联系，也不清楚什么时候会和他（再次）见面。你们的交情，你们真的有交情吗？
-
-&emsp;&emsp;结交朋友是相识相处、发现共同、相谈甚欢的缓慢过程。
-
-&emsp;&emsp;单靠点头之交、点赞之交，是很难结识（知心）朋友的。
-
-
-## 渴望表达
+## 💬 渴望表达
 &emsp;&emsp;表达欲是个奇怪的东西，一旦开始就停不下来。一停下来就很难再继续。
 
 &emsp;&emsp;大学期间，我写过短文，写过公众号、写过教程、写过小说。我承认我的作品的确没有深度、还不入流，但这不妨碍我想把他公之于众。
+
+&emsp;&emsp;虽然此时移动互联网早已兴起，各种记录生活 APP 形形色色、林林总总，可以表达的平台五花八门、不胜枚举。
+
 
 &emsp;&emsp;微信公众号、酷安、腾讯文档、谷歌文档、WPS 云文档，都曾由我留下的痕迹。但这些平台，要么是过于封闭，要么就是没有推广，此外还有莫名其妙的关键词，或者说是违禁词。
 
@@ -75,11 +44,11 @@ coverImg: /blog/DragaliaLost/1.png
 
 &emsp;&emsp;当时我就在想，要是能有个博客就好了……
 
-&emsp;&emsp;只因能力不足，才将此事一直搁置……
+&emsp;&emsp;只因能力不足，一直搁置至今。
 
 
-## 技术实力
-### [兽人小说频道](/FurryReading.md) {$FurryReading}
+## 🦾 技术能力
+### 🐺 [兽人小说频道](/FurryReading.md) {$FurryReading}
 
 <div style="display:flex; justify-content:center; align-items:center; gap:40px; margin:20px auto;">
     <div style="text-align:center">
@@ -89,21 +58,21 @@ coverImg: /blog/DragaliaLost/1.png
 
 &emsp;&emsp;2022 年，Covid 疫情封城在家。
 
-&emsp;&emsp;当时，运营兽人小说频道（现：兽人阅读频道 [@FurryReading](https://t.me/FurryReading) ）的工作量，已经让我焦头烂额。减轻频道的运营负担与想要转行的双重目标，让我在家自学颇为上心。
+&emsp;&emsp;当时，运营兽人小说频道（现：兽人阅读频道 [@FurryReading](https://t.me/FurryReading) ）的工作量，已经让我焦头烂额。减轻频道的运营负担与想要转行的双重目标，让我在家自学颇为上心。选取编程语言时，我想起了这句话：
 
 > [!NOTE]
 > 人生苦短，我用 Python。
 > 
 > Life is short, you need Python.
 
-&emsp;&emsp;就这样，从 2022 年 03 月 11 日起，我从零开始，每天看视频教程、看文档、写代码、测试代码，学习时间日均超过 10h。最终历时1个多月，在 2022 年 04 月 16 日，自助投稿机器人 [@FurryNovelsBot](https://t.me/FurryNovelsBot) 上线了。
+&emsp;&emsp;就这样，从 2022 年 03 月 11 日起，我从零开始，每天看视频教程、看文档、写代码、测试代码，学习时间日均超过 10h。最终历时一个多月，在 2022 年 04 月 16 日，投稿机器人 [@FurryNovelsBot](https://t.me/FurryNovelsBot) 上线了。
 
-&emsp;&emsp;自此，终于是正式迈入编程的大门了。
+&emsp;&emsp;自此，我也算是正式迈入编程的大门了。
 
 &emsp;&emsp;
 
 
-### [Pixiv 书源](https://downeyrem.github.io/PixivSource)
+### 🅿️ [Pixiv 书源](https://downeyrem.github.io/PixivSource)
 
 <div style="display:flex; justify-content:center; align-items:center; gap:40px; margin:20px auto;">
     <div style="text-align:center">
@@ -148,10 +117,10 @@ coverImg: /blog/DragaliaLost/1.png
 
 &emsp;&emsp;2025 年 11 月 20 日，初步用 VitePress 做了一个 [Pixiv 书源项目的主页](https://downeyrem.github.io/PixivSource)。为了这个书源主页，从头到尾翻了一遍官方文档，也算简单了解 VitePress 了。
 
-&emsp;&emsp;这个月内，我把之前的教程改成更适合 VitePress 展示的样式。目前已经改的七七八八了。
+&emsp;&emsp;这个月内，把之前的教程改成更适合 VitePress 展示的样式。
 
 
-### 开启博客
+### 💻 开启博客
 
 <div style="display:flex; justify-content:center; align-items:center; gap:40px; margin:20px auto;">
     <div style="text-align:center">
@@ -159,12 +128,12 @@ coverImg: /blog/DragaliaLost/1.png
     </div>
 </div>
 
-&emsp;&emsp;2025 年 12 月 25 日，圣诞节的晚上，我发现了 Teek 这个 VitePress 主题。
+&emsp;&emsp;2025 年 12 月 25 日，圣诞节的晚上，我发现了 Teek 这个 VitePress 主题。这个礼物着实宝贵，~~可惜没出现在袜子里。~~
 
 &emsp;&emsp;这意味着，我终于可以在自己的能力范围内，部署并撰写博客了。本站也就呼之欲出了。
 
 
-## 博客内容
+## 📝 博客内容
 &emsp;&emsp;受本龙技术实力影响，本博客不会是一个【注重编程】的博客。
 
-&emsp;&emsp;本博客内容可能更多侧重于：日常生活、情感记录、读书摘抄、旅行体验等非编程相关内容。
+&emsp;&emsp;本博客内容可能更多侧重于：日常生活、情感记录、读书摘抄、旅行体验等非编程相关内容，当然也会有少量编程相关内容。
