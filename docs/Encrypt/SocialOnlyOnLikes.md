@@ -1,7 +1,6 @@
 ---
 title: 点赞之交
 date: 2026-01-04 00:00:00
-permalink: SocialOnlyOnLikes
 categories:
   - 日常
   - 情感

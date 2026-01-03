@@ -1,6 +1,5 @@
 ---
 title: api-examples
-permalink: api-examples
 date: 2025-12-30 13:20:38
 private: true
 username: teek

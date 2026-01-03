@@ -1,7 +1,6 @@
 ---
 title: 博客起源
 date: 2026-01-03 00:00:00
-permalink: BlogStart
 categories:
   - 日常
 tags:

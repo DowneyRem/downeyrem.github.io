@@ -1,7 +1,6 @@
 ---
 title: 文档模板
 date: 2025-12-28 16:00:00
-permalink: Template
 categories:
   - 模板
 tags:

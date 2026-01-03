@@ -1,7 +1,6 @@
 ---
 title: 赞助打赏
 date: 2025-12-20 16:00:00
-permalink: Sponsor
 categories:
   - 链接
 tags:
