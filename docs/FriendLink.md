@@ -44,7 +44,7 @@ coverImg: /blog/DragaliaLost/3.png
 - name: 兽人阅读
   desc: 兽人小说，精品阅读
   avatar: /img/FurryReading.jpg
-  link: https://t.me/FurryReading
+  link: https://downeyrem.github.io/FurryReading
   bgColor: "#B9D59C"
   textColor: "#3B551F"
 ```
@@ -89,3 +89,19 @@ coverImg: /blog/DragaliaLost/3.png
   textColor: "#A05F2C"
 ```
 ::: 
+
+
+## 鸣谢
+::: shareCard
+```yaml
+- name: VitePress
+  desc: 由 Vite 和 Vue 驱动的静态站点生成器
+  link: https://vitepress.dev/zh/
+  avatar: https://vitepress.dev/vitepress-logo-mini.svg
+  
+- name: Teek
+  desc: 轻量、简洁、高效、灵活，易于扩展的 VitePress 主题
+  link: https://vp.teek.top/
+  avatar: https://vitepress.yiov.top/logo.png
+
+```
