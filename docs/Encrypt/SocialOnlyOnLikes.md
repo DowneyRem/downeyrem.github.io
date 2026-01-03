@@ -17,7 +17,7 @@ loginInfo:
 top: false
 sticky: 1
 sidebar: true
-article: true
+article: false
 comment: true
 description: 点赞之交的一点思考
 docAnalysis: true
