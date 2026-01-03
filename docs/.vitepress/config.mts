@@ -105,6 +105,14 @@ export default defineConfig({
                 ],
             },
             {
+                text: "📁 分类",
+                items: [
+                    { text: "📅 日常博文", link: "/Daily" },
+                    { text: "㊙️ 加密博文", link: "/Encrypt" },
+                    { text: "🐺 兽人博文", link: "/Furry" },
+                ],
+            },
+            {
                 text: "🔍 索引",
                 items: [
                     { text: "📚 文章归档", link: "/archives" },
