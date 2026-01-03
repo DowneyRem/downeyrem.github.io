@@ -24,7 +24,7 @@ coverColor: null
 coverImg: /blog/DragaliaLost/3.png
 ---
 
-## 本站链接 & 本龙项目
+## 🔗 本站链接
 ::: shareCard
 ```yaml
 - name: Downey's Blog
@@ -34,6 +34,19 @@ coverImg: /blog/DragaliaLost/3.png
   bgColor: "#FFB6C1"
   textColor: "#621529"
 
+- name: Github
+  desc: 博客的代码仓库
+  avatar: /img/github.png
+  link: https://github.com/DowneyRem/downeyrem.github.io
+  bgColor: "#FFE5B4"
+  textColor: "#A05F2C"
+```
+:::
+
+
+## 💻 本龙项目
+::: shareCard
+```yaml
 - name: Pixiv 书源
   desc: 最好的 Pixiv 小说阅读器
   avatar: https://downeyrem.github.io/PixivSource/favicon-512x512.png
@@ -50,7 +63,7 @@ coverImg: /blog/DragaliaLost/3.png
 ```
 :::
 
-## 友情链接
+## 🤝友情链接
 ::: shareCard
 ```yaml
 - name: 兽人控游戏索引
@@ -91,7 +104,7 @@ coverImg: /blog/DragaliaLost/3.png
 ::: 
 
 
-## 鸣谢
+## 📌 鸣谢
 ::: shareCard
 ```yaml
 - name: VitePress
