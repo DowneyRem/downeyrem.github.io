@@ -117,8 +117,8 @@ export default defineConfig({
             {
                 text: "🐲 关于",
                 items: [
-                    { text: "🐲 关于本龙", link: "/about" },
-                    { text: "🤝 友情链接", link: "/friendLink" },
+                    { text: "🐲 关于本龙", link: "/About" },
+                    { text: "🤝 友情链接", link: "/FriendLink" },
                     { text: "☕️ 赞助打赏", link: "/Sponsor" },
                 ],
             },

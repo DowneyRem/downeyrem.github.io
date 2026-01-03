@@ -1,7 +1,7 @@
 ---
 title: 友情链接
 date: 2025-12-30 16:00:00
-permalink: friendLink
+permalink: FriendLink
 categories:
   - 链接
 tags:
@@ -30,7 +30,7 @@ coverImg: /blog/DragaliaLost/3.png
 - name: Downey's Blog
   desc: 唐尼瑞姆的博客
   avatar: https://www.github.com/DowneyRem.png
-  link: https://downeyrem.github.io/PixivSource
+  link: https://downeyrem.github.io
   bgColor: "#FFB6C1"
   textColor: "#621529"
 
