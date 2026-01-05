@@ -1,5 +1,5 @@
 ---
-title: 投喂本龙
+title: 投喂：✍️ 博客&教程
 date: 2025-12-20 16:00:00
 categories:
   - 链接
@@ -8,7 +8,7 @@ tags:
 titleTag: null
 #top: false
 #sticky: 1
-sidebar: false
+sidebar: true
 article: true
 comment: false
 description: 赞助打赏
@@ -29,6 +29,8 @@ coverImg: /blog/DragaliaLost/4.png
 > **如果本站内容对你有帮助，欢迎投喂本龙**
 > 
 > **你的鼓励是本龙持续更新的动力～**
+> 
+> **可在【留言】中留下【博客/教程】和【你的昵称】，以便本龙统计打赏名单**
 
 - 💜 [爱发电 打赏 & 指导](https://afdian.com/a/DowneyRem)
 - ☕️ [Buy me a Coffee](https://ko-fi.com/downeyrem)
@@ -44,19 +46,13 @@ coverImg: /blog/DragaliaLost/4.png
     </div>
 </div>
 
-> [!IMPORTANT] 
-> 
-> **可在【留言】中留下【博客】和【你的ID/昵称】，以便本龙统计打赏名单**
 
-
-## 💵 打赏名单
+## 💵 投喂名单
 > [!TIP]
 > 
 > **按打赏先后顺序排名**
 >
 > 本表手动更新，数据更新会有少许延迟，还请见谅
-> 
-> 另有：[🅿️ Pixiv 书源 打赏名单](https://downeyrem.github.io/PixivSource/Sponsor) （不与本表同步）
 
 <SponsorTable :data="
 [

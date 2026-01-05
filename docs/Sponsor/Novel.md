@@ -1,5 +1,5 @@
 ---
-title: 投喂本龙：📚 小说
+title: 投喂：📚 小说
 date: 2026-01-06
 categories:
   - 赞助名单
@@ -8,7 +8,7 @@ tags:
 titleTag: null
 #top: false
 #sticky: 1
-sidebar: false
+sidebar: true
 article: true
 comment: false
 description:  小说 赞助名单

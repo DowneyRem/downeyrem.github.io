@@ -1,5 +1,5 @@
 ---
-title: 为 @FurryNovelsBot 🚀 升级服务器
+title: Bot：🚀 升级服务器
 date: 2026-01-06
 categories:
   - 赞助名单
@@ -8,7 +8,7 @@ tags:
 titleTag: null
 #top: false
 #sticky: 1
-sidebar: false
+sidebar: true
 article: true
 comment: false
 description: Furry Novels Bot 赞助名单
@@ -97,8 +97,3 @@ coverImg: /blog/DragaliaLost/4.png
 
 
 ## 🙏 感谢上方诸位的赞助
-> [!NOTE]
->
-> 另有其他投喂赞助打赏名单：
-- [🅿️ Pixiv 书源 打赏名单](https://downeyrem.github.io/PixivSource/Sponsor) （不与本表同步）
-- []
