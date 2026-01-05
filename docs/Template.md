@@ -6,8 +6,8 @@ categories:
 tags:
   - 模板
 titleTag: null
-top: false
-sticky: 1
+#top: false
+#sticky: 1
 sidebar: true
 article: true
 comment: true

@@ -7,8 +7,8 @@ categories:
 tags:
   - 链接
 titleTag: null
-top: true
-sticky: 1
+#top: true
+#sticky: 1
 sidebar: false
 article: true
 comment: false

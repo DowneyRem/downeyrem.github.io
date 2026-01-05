@@ -13,8 +13,8 @@ loginInfo:
   - username: teek
     password: teek
 
-top: false
-sticky: 1
+#top: false
+#sticky: 1
 sidebar: true
 article: false
 comment: true
