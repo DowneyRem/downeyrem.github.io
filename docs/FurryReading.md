@@ -1,13 +1,15 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-tk:
-  teekHome: false
-  vpHome: true
-  permalink: FurryReading
-  social:
-    - icon: 
-      name: 
-      link: 
+teekHome: false
+vpHome: true
+permalink: FurryReading
+sidebar: false
+article: false
+comment: false
+social:
+  - icon: 
+    name: 
+    link: 
 
 layout: home
 title: 兽人阅读频道

@@ -6,9 +6,9 @@ categories:
 tags:
   - 模板
 titleTag: null
-#top: false
-#sticky: 1
-sidebar: true
+top: false  # 博客精选
+sticky: 0   # 主页置顶
+sidebar: false
 article: true
 comment: true
 description: 文章摘要
