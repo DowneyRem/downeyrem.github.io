@@ -12,7 +12,7 @@ import "vitepress-theme-teek/vp-plus/doc-h1-gradient.scss";
 import "vitepress-theme-teek/tk-plus/banner-desc-gradient.scss";
 import "vitepress-theme-teek/tk-plus/banner-full-img-scale.scss";
 import "vitepress-theme-teek/tk-plus/fade-up-animation.scss";
-import "vitepress-theme-teek/tk-plus/home-card-hover.scss";
+// import "vitepress-theme-teek/tk-plus/home-card-hover.scss";
 
 import ContributeChart from "./components/ContributeChart.vue";
 import CalendarCard from "./components/CalendarCard.vue";
