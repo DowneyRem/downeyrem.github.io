@@ -24,7 +24,7 @@ coverColor: null
 coverImg: /blog/Others/1.png
 ---
 
-## 🐲 关于本龙
+## 🐲 龙的简介
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px; margin: 30px auto; max-width: 600px; font-family: sans-serif;">
     <div style="flex-shrink: 0; position: relative; width: 200px; height: 200px;">
@@ -46,20 +46,20 @@ coverImg: /blog/Others/1.png
     </div>
 </div>
 
-## 💻 程序项目
+## 💻 龙的程序
 ::: shareCard
 ```yaml
-- name: Github
-  desc: 唐尼瑞姆的代码仓库
-  avatar: /img/github.png
-  link: https://www.github.com/DowneyRem
-  bgColor: "#FFE5B4"
-  textColor: "#A05F2C"
-
 - name: Downey's Blog
   desc: 唐尼瑞姆的博客
   avatar: https://www.github.com/DowneyRem.png
   link: https://downeyrem.github.io
+  bgColor: "#FFE5B4"
+  textColor: "#A05F2C"
+
+- name: Github
+  desc: 唐尼瑞姆的代码仓库
+  avatar: /img/github.png
+  link: https://www.github.com/DowneyRem
   bgColor: "#FFB6C1"
   textColor: "#621529"
 
@@ -80,7 +80,7 @@ coverImg: /blog/Others/1.png
 ```
 :::
 
-## 🐺 兽人小说
+## 🐺 龙的小说
 ::: shareCard
 ```yaml
 - name: Pixiv
@@ -113,7 +113,7 @@ coverImg: /blog/Others/1.png
 ```
 :::
 
-## 🔗 社交链接
+## 💬 龙的社交
 ::: shareCard
 ```yaml
 - name: Telegram
@@ -133,4 +133,42 @@ coverImg: /blog/Others/1.png
 ```
 :::
 
+
+## 🎮 龙的游戏
+::: shareCard
+```yaml
+- name: Steam
+  desc: DowneyRem
+  avatar: /img/steam.svg
+  link: https://steamcommunity.com/profiles/76561198374546021
+  bgColor: "#FFE5B4"
+  textColor: "#A05F2C"
+  
+- name: Warframe
+  desc: 星际战甲
+  avatar: /img/Warframe.png
+  link: https://www.warframe.com
+  bgColor: "#FFB6C1"
+  textColor: "#621529"
+```
+:::
+
+### ⏸️ 偶尔在玩
+::: shareCard
+```yaml
+- name: Monster Hunter Rise
+  desc: 怪物猎人崛起
+  avatar: /img/MHR.png
+  link: https://www.monsterhunter.com/rise/
+  bgColor: "#CBEAFA"
+  textColor: "#6854A1"
+  
+- name: Monster Hunter World
+  desc: 怪物猎人世界
+  avatar: /img/MHW.png
+  link: https://www.monsterhunter.com/world
+  bgColor: "#B9D59C"
+  textColor: "#3B551F"
+```
+:::
 
