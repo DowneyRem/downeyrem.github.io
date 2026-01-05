@@ -98,15 +98,15 @@ export default defineConfig({
         nav: [
             { text: "🏠 首页", link: "/" },
             {
-                text: "🧰 项目",
+                text: "🧰 龙的项目",
                 items: [
                     { text: "🅿️ Pixiv 书源", link: "https://downeyrem.github.io/PixivSource" },
-                    { text: "🐺 兽人阅读频道", link: "/FurryReading" },
+                    { text: "🐺 兽人阅读", link: "/FurryReading" },
                     { text: "📌 龙的教程", link: "/Guild" },
                 ],
             },
             {
-                text: "📁 分类",
+                text: "📁 龙的博文",
                 items: [
                     { text: "📅 龙的日常", link: "/Daily" },
                     { text: "㊙️ 龙的秘密", link: "/Encrypt" },
@@ -115,7 +115,7 @@ export default defineConfig({
                 ],
             },
             {
-                text: "🔍 索引",
+                text: "🔍 龙的索引",
                 items: [
                     { text: "📚 文章归档", link: "/archives" },
                     { text: "📃 文章清单", link: "/articleOverview" },
@@ -125,11 +125,11 @@ export default defineConfig({
                 ],
             },
             {
-                text: "🐲 关于",
+                text: "🐲 关于本龙",
                 items: [
                     { text: "🐲 关于本龙", link: "/About" },
                     { text: "🤝 友情链接", link: "/FriendLink" },
-                    { text: "☕️ 赞助打赏", link: "/Sponsor" },
+                    { text: "☕️ 打赏本龙", link: "/Sponsor" },
                 ],
             },
         ],
