@@ -1,5 +1,5 @@
 ---
-title: 关于本龙
+title: 龙的档案
 date: 2025-12-31 00:00:00
 permalink: About
 categories:

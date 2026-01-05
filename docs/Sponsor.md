@@ -1,5 +1,5 @@
 ---
-title: 赞助打赏
+title: 投喂本龙
 date: 2025-12-20 16:00:00
 categories:
   - 链接
@@ -23,12 +23,12 @@ coverColor: null
 coverImg: /blog/DragaliaLost/4.png
 ---
 
-## ☕ 赞助打赏
+## 🍖 投喂本龙
 > [!NOTE]
 > 
-> **如果本站内容对你有帮助，欢迎请博主喝杯咖啡**
+> **如果本站内容对你有帮助，欢迎投喂本龙**
 > 
-> **你的鼓励是持续更新的动力～**
+> **你的鼓励是本龙持续更新的动力～**
 
 - 💜 [爱发电 打赏 & 指导](https://afdian.com/a/DowneyRem)
 - ☕️ [Buy me a Coffee](https://ko-fi.com/downeyrem)
@@ -46,7 +46,7 @@ coverImg: /blog/DragaliaLost/4.png
 
 > [!IMPORTANT] 
 > 
-> **可在【留言】中留下【博客】和【你的ID/昵称】，以便统计打赏名单**
+> **可在【留言】中留下【博客】和【你的ID/昵称】，以便本龙统计打赏名单**
 
 
 ## 💵 打赏名单
@@ -65,4 +65,4 @@ coverImg: /blog/DragaliaLost/4.png
 "/>
 
 
-## 🙏 感谢上方诸位的支持
+## 🙏 感谢上方诸位的投喂

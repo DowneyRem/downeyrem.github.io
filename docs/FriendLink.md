@@ -63,7 +63,7 @@ coverImg: /blog/DragaliaLost/3.png
 ```
 :::
 
-## 🤝友情链接
+## 🤝 友情链接
 ::: shareCard
 ```yaml
 - name: 兽人控游戏索引

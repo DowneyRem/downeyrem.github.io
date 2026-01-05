@@ -1,6 +1,6 @@
 ---
 date: 2026-01-03 19:23:57
-title: ㊙️ 加密博文分区
+title: ㊙️ 龙的秘密
 catalogue: true
 layout: page
 path: Encrypt

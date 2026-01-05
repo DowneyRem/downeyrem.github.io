@@ -1,6 +1,6 @@
 ---
 date: 2026-01-04 03:23:57
-title: 兽人博文
+title: 🐺 龙和兽人
 catalogue: true
 layout: page
 path: Furry

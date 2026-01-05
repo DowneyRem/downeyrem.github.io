@@ -98,7 +98,7 @@ export default defineConfig({
         nav: [
             { text: "🏠 首页", link: "/" },
             {
-                text: "🧰 龙的项目",
+                text: "💎 龙的宝藏", // 项目是辛苦收集/开发的成果
                 items: [
                     { text: "🅿️ Pixiv 书源", link: "https://downeyrem.github.io/PixivSource" },
                     { text: "🐺 兽人阅读", link: "/FurryReading" },
@@ -106,7 +106,7 @@ export default defineConfig({
                 ],
             },
             {
-                text: "📁 龙的博文",
+                text: "📜 龙的话语",
                 items: [
                     { text: "📅 龙的日常", link: "/Daily" },
                     { text: "㊙️ 龙的秘密", link: "/Encrypt" },
@@ -115,7 +115,7 @@ export default defineConfig({
                 ],
             },
             {
-                text: "🔍 龙的索引",
+                text: "🐾 龙的足迹", // 索引是寻找往事的痕迹
                 items: [
                     { text: "📚 文章归档", link: "/archives" },
                     { text: "📃 文章清单", link: "/articleOverview" },
@@ -127,9 +127,9 @@ export default defineConfig({
             {
                 text: "🐲 关于本龙",
                 items: [
-                    { text: "🐲 关于本龙", link: "/About" },
-                    { text: "🤝 友情链接", link: "/FriendLink" },
-                    { text: "☕️ 打赏本龙", link: "/Sponsor" },
+                    { text: "🐲 龙的档案", link: "/About" },
+                    { text: "🤝 龙的盟友", link: "/FriendLink" },
+                    { text: "🍖 投喂本龙", link: "/Sponsor" },
                 ],
             },
         ],
