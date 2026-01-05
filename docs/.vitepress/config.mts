@@ -102,14 +102,16 @@ export default defineConfig({
                 items: [
                     { text: "🅿️ Pixiv 书源", link: "https://downeyrem.github.io/PixivSource" },
                     { text: "🐺 兽人阅读频道", link: "/FurryReading" },
+                    { text: "📌 龙的教程", link: "/Guild" },
                 ],
             },
             {
                 text: "📁 分类",
                 items: [
-                    { text: "📅 日常博文", link: "/Daily" },
-                    { text: "㊙️ 加密博文", link: "/Encrypt" },
-                    { text: "🐺 兽人博文", link: "/Furry" },
+                    { text: "📅 龙的日常", link: "/Daily" },
+                    { text: "㊙️ 龙的秘密", link: "/Encrypt" },
+                    { text: "📚 龙在读书", link: "/Books" },
+                    { text: "🐺 龙和兽人", link: "/Furry" },
                 ],
             },
             {
