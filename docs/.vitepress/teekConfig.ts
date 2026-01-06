@@ -16,10 +16,7 @@ export const teekConfig = defineTeekConfig({
     teekHome: true, // 是否开启博客首页
     vpHome: false, // 是否隐藏 VP 首页
     sidebarTrigger: true, // 是否开启侧边栏折叠功能
-    author: {
-        name: "唐尼瑞姆", // 作者名称
-        link: "https://github.com/DowneyRem", // 点击作者名称后跳转的链接
-    },
+    author: { name: "唐尼瑞姆" }, // 作者名称
     // loading: true, // 启用 Loading 动画，为 false 则关闭 Loading 动画
     loading: "正在加载中...", // 修改 Loading 文案
     anchorScroll: true,
