@@ -17,6 +17,7 @@ import "vitepress-theme-teek/tk-plus/fade-up-animation.scss";
 import ContributeChart from "./components/ContributeChart.vue";
 import CalendarCard from "./components/CalendarCard.vue";
 import SponsorTable from "./components/SponsorTable.vue";
+import DragonChat from './components/DragonChat.vue'
 import { h } from "vue";
 
 export default {
@@ -27,6 +28,7 @@ export default {
             "teek-home-card-my-after": () => h(CalendarCard),
         }),
     enhanceApp({ app }) {
-        app.component('SponsorTable', SponsorTable);
+        app.component('SponsorTable', SponsorTable)
+        app.component('DragonChat', DragonChat)
     }
 };
