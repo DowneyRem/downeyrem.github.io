@@ -40,9 +40,7 @@ name="Furry Novels Bot" badge="🤖" icon="🐺">
 ## 🚀 升级服务器
 > [!NOTE]
 >
-> **如果 [@FurryNovelsBot](https://t.me/FurryNovelsBot) 帮到了你，并且你想让他运行更快的话**
->
-> **欢迎为他赞助，升级他的服务器，以便为你提供更好的服务**
+> **如果 [@FurryNovelsBot](https://t.me/FurryNovelsBot) 帮到了你，并且你想让他启动、运行得更快的话，欢迎为他赞助升级他的服务器，以便为你提供更好的服务**
 >
 > **赞助时，请在【留言】中留下【 Bot 】和【你的昵称】，以便本龙统计赞助名单**
  
@@ -82,7 +80,9 @@ name="Furry Novels Bot" badge="🤖" icon="🐺">
 
 > [!IMPORTANT]
 >
-> **如果赞助金额足够 [@FurryNovelsBot](https://t.me/FurryNovelsBot) 一年服务器的费用，届时则会在 [兽人阅读频道](https://t.me/FurryReading) 发布公告，为其升级服务器。**
+> **赞助金额累计达到 ￥200~300 时（大概是一年服务器的费用）**
+> 
+> **届时则会在 [兽人阅读频道](https://t.me/FurryReading) 发布公告，购买并为其升级服务器，使其可以 7x24h 全天候运行。**
 
 
 ## 🙏 感谢上方诸位的赞助
