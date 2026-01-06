@@ -24,29 +24,17 @@ coverImg: /blog/DragaliaLost/4.png
 ---
 
 ## 🔊 来自服务器的呼唤
-<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px; margin: 30px auto; max-width: 600px; font-family: sans-serif;">
-    <div style="flex-shrink: 0; position: relative; width: 200px; height: 200px;">
-        <img src="/img/FurryNovelsBot.png" alt="Furry Novels Bot" style="width: 100%; height: 100%; border-radius: 24px; border: 3px solid #5d9b9d; object-fit: cover; display: block; box-shadow: 0 8px 20px rgba(0,0,0,0.1);">
-        <div style="position: absolute; bottom: 8px; right: 8px; font-size: 28px; background: rgba(255,255,255,0.8); border-radius: 50%; width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">🤖</div>
-    </div>
-    <div style="position: relative; flex: 1; min-width: 280px; background: rgba(93, 155, 157, 0.08); border: 1px solid rgba(93, 155, 157, 0.3); border-radius: 20px; padding: 20px; color: inherit; backdrop-filter: blur(4px);">
-        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-            <span style="font-size: 18px;">🐺</span> 
-            <span style="font-size: 18px; font-weight: bold; color: #5d9b9d;"> Furry Novels Bot </span>
-        </div>
-        <div style="font-size: 15px; line-height: 1.7; color: inherit;"> 
-            <strong>我可以帮你更轻松地下载 Pixiv 小说，</strong><br>
-            <strong>顺便还能帮你分享到 
-                <a href="https://t.me/FurryReading" target="_blank"> 兽人阅读 </a>频道。</strong><br>
-            <strong>快来帮我<strong style="color: #5d9b9d;">升级服务器</strong>吧！</strong>
-            <div style="margin-top: 8px; padding-left: 15px; border-left: 2px solid rgba(93, 155, 157, 0.3);">
-                你将获得：<br>
-                · 更快的速度、更好的服务<br>
-                · 加入感谢名单，公开鸣谢<br>
-            </div>
-        </div>
-    </div>
+<DragonChat avatar="/img/FurryNovelsBot.png"
+name="Furry Novels Bot" badge="🤖" icon="🐺">
+<strong>我可以帮你更轻松地下载 Pixiv 小说，</strong><br>
+<strong>顺便还能帮你分享到 <a href="https://t.me/FurryReading" target="_blank">兽人阅读</a> 频道。</strong><br>
+快来帮我 <strong>升级服务器</strong> 吧！
+<div class="quote-area">
+你将获得：<br>
+· <strong>更快的速度、更好的服务</strong><br>
+· <strong>加入感谢名单，公开鸣谢</strong><br>
 </div>
+</DragonChat>
 
 
 ## 🚀 升级服务器
