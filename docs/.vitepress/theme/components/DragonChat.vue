@@ -1,7 +1,7 @@
 <template>
   <div class="dragon-chat-container">
     <div class="avatar-wrapper">
-      <img :src="avatar" :alt="name" class="avatar-img" />
+      <img :src="withBase(avatar)" :alt="name" class="avatar-img" />
       <div class="avatar-badge">{{ badge }}</div>
     </div>
 
@@ -19,11 +19,14 @@
 </template>
 
 <script setup>
+// 1. 引入 withBase
+import { withBase } from 'vitepress'
+
 defineProps({
-  avatar: { type: String },
-  name: { type: String },
-  badge: { type: String }, // 头像右下角图标
-  icon: { type: String },  // 名字左侧图标
+  avatar: { type: String, default: '' },
+  name: { type: String, default: '' },
+  badge: { type: String, default: '' },
+  icon: { type: String, default: '' },
 })
 </script>
 
@@ -36,7 +39,8 @@ defineProps({
   gap: 20px;
   margin: 30px auto;
   max-width: 600px;
-  font-family: sans-serif;
+  /* 建议添加：适配默认主题的文字颜色 */
+  color: var(--vp-c-text-1);
 }
 
 .avatar-wrapper {
@@ -71,15 +75,15 @@ defineProps({
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
+/* 深色模式适配建议：将背景改为使用 CSS 变量，否则在深色模式下背景可能过亮 */
 .chat-bubble {
   position: relative;
   flex: 1;
   min-width: 280px;
-  background: rgba(93, 155, 157, 0.08);
+  background: var(--vp-c-bg-soft); /* 使用默认主题的柔和背景色 */
   border: 1px solid rgba(93, 155, 157, 0.3);
   border-radius: 20px;
   padding: 20px;
-  color: inherit;
   backdrop-filter: blur(4px);
 }
 
@@ -99,30 +103,24 @@ defineProps({
 .chat-content {
   font-size: 15px;
   line-height: 1.7;
-  color: inherit;
 }
 
 /* --- 核心修改部分 --- */
-
-/* 1. 全局 slot 里的 strong 仅加粗，颜色继承父级（黑白自适应） */
 .chat-content :deep(strong) {
   font-weight: bold;
   color: inherit;
 }
 
-/* 2. 专门针对 .quote-area 内部的内容进行颜色渲染 */
 .chat-content :deep(.quote-area) {
   margin-top: 8px;
   padding-left: 15px;
   border-left: 2px solid rgba(93, 155, 157, 0.3);
-  /* 让 quote-area 里的 strong 变回青色 */
 }
 
 .chat-content :deep(.quote-area strong) {
   color: #5d9b9d;
 }
 
-/* 3. 链接保持青色以方便识别 */
 .chat-content :deep(a) {
   color: #5d9b9d;
   text-decoration: none;
