@@ -1,18 +1,18 @@
 ---
-title: 友情链接
+title: 龙的盟友
 date: 2025-12-30 16:00:00
 permalink: FriendLink
 categories:
   - 链接
 tags:
   - 链接
-titleTag: null
+titleTag: 友情链接
 #top: true
 #sticky: 1
 sidebar: false
 article: true
 comment: false
-description: 友情链接
+# description: 友情链接
 docAnalysis: true
 inCatalogue: true
 autoTitle: true
