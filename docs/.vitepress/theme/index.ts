@@ -18,6 +18,7 @@ import ContributeChart from "./components/ContributeChart.vue";
 import CalendarCard from "./components/CalendarCard.vue";
 import SponsorTable from "./components/SponsorTable.vue";
 import DragonChat from './components/DragonChat.vue'
+import NotFound from "./components/404.vue";
 import { h } from "vue";
 
 export default {
@@ -26,6 +27,7 @@ export default {
         h(Teek.Layout, null, {
             "teek-archives-top-before": () => h(ContributeChart),
             "teek-home-card-my-after": () => h(CalendarCard),
+            "not-found": () => h(NotFound),
         }),
     enhanceApp({ app }) {
         app.component('SponsorTable', SponsorTable)
