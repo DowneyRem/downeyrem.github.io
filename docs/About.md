@@ -25,7 +25,6 @@ coverImg: /blog/Others/1.png
 ---
 
 ## 🐲 龙的简介
-
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px; margin: 30px auto; max-width: 600px; font-family: sans-serif;">
     <div style="flex-shrink: 0; position: relative; width: 200px; height: 200px;">
         <img src="/favicon.png" alt="唐尼瑞姆" style="width: 100%; height: 100%; border-radius: 24px; border: 3px solid #5d9b9d; object-fit: cover; display: block; box-shadow: 0 8px 20px rgba(0,0,0,0.1);">

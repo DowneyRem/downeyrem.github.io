@@ -5,7 +5,7 @@ categories:
   - 赞助名单
 tags:
   - 赞助名单 
-titleTag: null
+titleTag: 赞助名单
 #top: false
 #sticky: 1
 sidebar: true
@@ -58,7 +58,7 @@ coverImg: /blog/DragaliaLost/4.png
 >
 > **赞助时，请在【留言】中留下【 Bot 】和【你的昵称】，以便本龙统计赞助名单**
  
-- 💜 [爱发电 打赏 & 指导](https://afdian.com/a/DowneyRem)
+- 💜 [爱发电](https://afdian.com/a/DowneyRem)
 - ☕️ [Buy me a Coffee](https://ko-fi.com/downeyrem)
 
 <div style="display:flex; justify-content:center; align-items:center; gap:40px; margin:20px auto;">

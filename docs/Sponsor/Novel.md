@@ -1,11 +1,11 @@
 ---
-title: 投喂：📚 小说
+title: 投喂：📚 小说催更
 date: 2026-01-06
 categories:
   - 赞助名单
 tags:
   - 赞助名单
-titleTag: null
+titleTag: 赞助名单
 #top: false
 #sticky: 1
 sidebar: true
@@ -25,7 +25,7 @@ coverImg: /blog/DragaliaLost/4.png
 
 
 ## 🏹 发动技能：友善催更
-- 💜 [爱发电 打赏 & 指导](https://afdian.com/a/DowneyRem)
+- 💜 [爱发电](https://afdian.com/a/DowneyRem)
 - ☕️ [Buy me a Coffee](https://ko-fi.com/downeyrem)
 
 <div style="display:flex; justify-content:center; align-items:center; gap:40px; margin:20px auto;">
