@@ -8,7 +8,9 @@ let wallPapper =  [
     "/blog/DragaliaLost/2.png",
     "/blog/DragaliaLost/3.png",
     "/blog/DragaliaLost/4.png",
-    "/blog/Others/1.png"
+    "/blog/Others/1.png",
+    "/blog/Warframe/Gauss.jpg",
+    "/blog/Warframe/Sevagoth.png",
 ]
 
 // Teek 主题配置
