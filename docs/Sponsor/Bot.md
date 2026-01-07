@@ -74,6 +74,9 @@ name="Furry Novels Bot" badge="🤖" icon="🐺">
 { name: '已注销', time: '2023-10-20', channel: '爱发电', amount: 5 },
 { name: '巴尔法鲁克', time: '2023-10-15', channel: '爱发电', amount: 5 },
 { name: 'DoooWahh', time: '2026-01-06', channel: '微信', amount: 5 },
+{ name: '月Lunar', time: '2026-01-06', channel: '爱发电', amount: 5 },
+{ name: '芬里尔', time: '2026-01-07', channel: '爱发电', amount: 5 },
+{ name: '海豹球', time: '2026-01-07', channel: '微信', amount: 25 },
 ]
 "/>
 
