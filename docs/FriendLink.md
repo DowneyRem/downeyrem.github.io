@@ -112,9 +112,14 @@ coverImg: /blog/DragaliaLost/3.png
   link: https://vitepress.dev/zh/
   avatar: https://vitepress.dev/vitepress-logo-mini.svg
   
-- name: Teek
-  desc: 轻量、简洁、高效、灵活，易于扩展的 VitePress 主题
+- name: Teek 主题
+  desc: 轻量、简洁、高效、灵活，易于扩展
   link: https://vp.teek.top/
+  avatar: https://vp.teek.top/teek-logo-large.png
+  
+- name: VitePress
+  desc: 快速上手中文教程
+  link: https://vitepress.yiov.top/
   avatar: https://vitepress.yiov.top/logo.png
 
 ```
