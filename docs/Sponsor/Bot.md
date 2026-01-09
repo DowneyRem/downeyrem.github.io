@@ -78,13 +78,14 @@ name="Furry Novels Bot" badge="🤖" icon="🐺">
 { name: '芬里尔', time: '2026-01-07', channel: '爱发电', amount: 5 },
 { name: '海豹球', time: '2026-01-07', channel: '微信', amount: 25 },
 { name: '塔洛斯', time: '2026-01-08', channel: '微信', amount: 20 },
+{ name: 'とうか', time: '2026-01-09', channel: '微信', amount: 50 },
 ]
 "/>
 
 
 > [!IMPORTANT]
 >
-> **赞助金额累计达到 ￥200~300 时（大概是一年服务器的费用）**
+> **赞助金额累计达到 ￥200~300 时（大概是一年半的服务器费用）**
 > 
 > **届时则会在 [兽人阅读频道](https://t.me/FurryReading) 发布公告，购买并为其升级服务器，使其可以 7x24h 全天候运行。**
 

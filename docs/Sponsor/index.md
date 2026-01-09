@@ -10,7 +10,7 @@ catalogue: true
 layout: page
 path: Sponsor
 # permalink: Sponsor
-desc: 请选择 🍖 投喂项目
+desc: 请选择 🍖 投喂项目（若未标注项目，则记录在当前活跃赞助的项目里）
 pageTitle: 🍖 投喂项目
 sidebar: false
 article: true
@@ -23,6 +23,7 @@ coverImg: /blog/DragaliaLost/4.png
 name="唐尼瑞姆【嗷嗷待哺】" badge="🐲" icon="🐲">
 请选择 🍖 投喂项目<br>
 <div class="quote-area">
-不同的投喂项目将记录在不同的名单中
+不同的投喂项目将记录在不同的名单中<br>
+若未标注项目，则记录在当前活跃赞助的项目里
 </div>
 </DragonChat>
