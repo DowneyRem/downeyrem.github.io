@@ -19,7 +19,12 @@ import CalendarCard from "./components/CalendarCard.vue";
 import SponsorTable from "./components/SponsorTable.vue";
 import DragonChat from './components/DragonChat.vue'
 import NotFound from "./components/404.vue";
-import { h } from "vue";
+import HomeUnderline from "./components/HomeUnderline.vue"
+import { h, watch } from "vue";
+import './styles/index.css'
+
+// 彩虹背景动画样式
+let homePageStyle: HTMLStyleElement | undefined
 
 export default {
     extends: Teek,
@@ -29,8 +34,38 @@ export default {
             "teek-home-card-my-after": () => h(CalendarCard),
             "not-found": () => h(NotFound),
         }),
-    enhanceApp({ app }) {
+    enhanceApp({app , router }) {
         app.component('SponsorTable', SponsorTable)
         app.component('DragonChat', DragonChat)
-    }
+        app.component('HomeUnderline', HomeUnderline)
+
+        // 彩虹背景动画样式
+        if (typeof window !== 'undefined') {
+            watch(
+                () => router.route.data.relativePath,
+                () => updateHomePageStyle(location.pathname.includes("FurryReading")),
+                { immediate: true },
+            )
+        }
+    },
 };
+
+
+// 彩虹背景动画样式
+function updateHomePageStyle(value: boolean) {
+    if (value) {
+        if (homePageStyle) return
+
+        homePageStyle = document.createElement('style')
+        homePageStyle.innerHTML = `
+    :root {
+      animation: rainbow 12s linear infinite;
+    }`
+        document.body.appendChild(homePageStyle)
+    } else {
+        if (!homePageStyle) return
+
+        homePageStyle.remove()
+        homePageStyle = undefined
+    }
+}
