@@ -10,7 +10,7 @@ sticky:
 sidebar: true
 article: false
 comment: true
-coverImg: /blog/Others/1.png
+coverImg: /blog/Legendz/1.png
 ---
 
 ## 暂未完成

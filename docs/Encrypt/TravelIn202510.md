@@ -21,7 +21,7 @@ coverColor: null
 coverImg: /blog/DragaliaLost/1.png
 ---
 
-![img](/blog/Others/1.png)
+![img](/blog/Legendz/1.png)
 
 > 原文链接：https://www.pixiv.net/novel/show.php?id=26538721 
 
