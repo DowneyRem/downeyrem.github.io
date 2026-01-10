@@ -56,7 +56,7 @@ coverImg: /wall/DragaliaLost/3.png
   
 - name: 兽人阅读
   desc: 兽人小说，精品阅读
-  avatar: /img/FurryReading.jpg
+  avatar: /img/FurryReading.png
   link: https://downeyrem.github.io/FurryReading
   bgColor: "#B9D59C"
   textColor: "#3B551F"

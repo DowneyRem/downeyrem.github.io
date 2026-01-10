@@ -262,7 +262,7 @@ export const teekConfig = defineTeekConfig({
             {
                 name: "兽人阅读",
                 desc: "兽人小说，精品阅读",
-                avatar: "/img/FurryReading.jpg",
+                avatar: "/img/FurryReading.png",
                 link: "https://t.me/FurryReading",
             },
         ], // 友情链接数据列表

@@ -51,7 +51,7 @@ coverImg: /wall/DragaliaLost/1.png
 
 <div style="display:flex; justify-content:center; align-items:center; gap:40px; margin:20px auto;">
     <div style="text-align:center">
-        <img width="200" height="200" src="/img/FurryReading.jpg" alt="支付宝打赏二维码" style="border:1px solid #eee; border-radius:8px; padding:8px;" />
+        <img width="200" height="200" src="/img/FurryReading.png" alt="支付宝打赏二维码" style="border:1px solid #eee; border-radius:8px; padding:8px;" />
     </div>
 </div>
 

@@ -21,7 +21,7 @@ hero:
   tagline: 众人分享的，精品小说频道<br>⬇️ 点击【🤖 Bot】分享你喜欢的兽人小说吧
 
   image:
-    src: /img/FurryReading.jpg
+    src: /img/FurryReading.png
     alt: Furry Reading Channel Logo
   actions:
     - theme: alt

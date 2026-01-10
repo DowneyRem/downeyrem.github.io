@@ -61,7 +61,7 @@ coverImg: /wall/Legendz/1.png
   
 - name: 兽人阅读 项目
   desc: 兽人阅读 自动化运营方案
-  avatar: /img/FurryReading.jpg
+  avatar: /img/FurryReading.png
   link: https://t.me/FurryReading
   bgColor: "#B9D59C"
   textColor: "#3B551F"
@@ -88,7 +88,7 @@ coverImg: /wall/Legendz/1.png
 
 - name: 兽人阅读
   desc: 兽人小说，精品阅读
-  avatar: /img/FurryReading.jpg
+  avatar: /img/FurryReading.png
   link: https://t.me/FurryReading
   bgColor: "#B9D59C"
   textColor: "#3B551F"
