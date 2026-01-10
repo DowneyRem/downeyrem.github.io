@@ -18,39 +18,47 @@ description: 众人分享的，精品小说频道。根植 Telegram 平台，为
 hero:
   name: 兽人阅读频道
   text: 兽人小说，精品阅读
-  tagline: 众人分享的，精品小说频道<br>⬇️ 点击【🤖 Bot】分享你喜欢的兽人小说吧
+  tagline: 众人分享的，精品小说频道<br>⬇️ 点击【自助分享】分享你喜欢的小说吧
 
   image:
     src: /img/FurryReading.png
     alt: Furry Reading Channel Logo
   actions:
-    - theme: alt
-      text: ✈️ 下载 Telegram
-      link: "https://loyc.xyz/c/legado.html#download"
+#    - theme: alt
+#      text: ✈️ 下载 Telegram
+#      link: https://telegram.org/apps
       
     - theme: brand
-      text: 📚 兽人阅读频道
+      text: 📚 兽人阅读
       link: https://t.me/FurryReading
       
     - theme: brand
-      text: 🤖 FurryNovelsBot
+      text: ⤴️️ 自助分享
       link: https://t.me/FurryNovelsBot
 
     - theme: brand
-      text: 📘 使用指南
+      text: 📘 分享指南
       link: https://telegra.ph/FurryNovelsReading-04-04-07
-
+      
+    - theme: brand
+      text: ☁️ 远程书籍
+      link: https://downeyrem.github.io/PixivSource/RemoteBooks
+      
     - theme: alt
       text: ©️ 版权投诉
       link: https://github.com/DowneyRem/FurryNovels/blob/main/DMCA.md
       
     - theme: alt
-      text: 🏠 项目
+      text: 🏠 项目链接
       link: https://github.com/DowneyRem/FurryNovels
       
     - theme: alt
-      text: ☕ 打赏
-      link: https://downeyrem.github.io/PixivSource/Sponsor
+      text: 🚀 助力运行
+      link: https://github.com/DowneyRem/FurryNovels
+            
+    - theme: alt
+      text: 🖥️ 赞助服务
+      link: Sponsor/Bot
       
 
 features:
