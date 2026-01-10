@@ -4,7 +4,7 @@ date: 2026-01-06
 categories:
   - 赞助名单
 tags:
-  - 赞助名单 
+  - 赞助名单
 titleTag: 赞助名单
 #top: false
 #sticky: 1
@@ -23,12 +23,23 @@ coverColor: null
 coverImg: /img/FurryNovelsBot.png
 ---
 
-## 🔊 来自服务器的呼唤
+## 🚀 助力运营
 <DragonChat avatar="/img/FurryNovelsBot.png"
 name="Furry Novels Bot" badge="🤖" icon="🐺">
-<strong>我可以帮你更轻松地下载 Pixiv 小说，</strong><br>
-<strong>顺便还能帮你分享到 <a href="https://t.me/FurryReading" target="_blank">兽人阅读</a> 频道。</strong><br>
-快来帮我 <strong>升级服务器</strong> 吧！
+<strong>最简单的方法——</strong><br>
+<strong>让我帮你把喜欢的小说分享到 <a href="https://t.me/FurryReading">兽人阅读频道</a> 。</strong><br>
+什么？你说不太会用？那来 <a href="../FurryNovels/Begin">看看这个</a> ？
+<div class="quote-area">
+你将获得：<br>
+· <strong>一个很难停更的小说推荐频道</strong><br>
+</div>
+</DragonChat>
+
+
+## 🚀 升级服务器
+<DragonChat avatar="/img/FurryNovelsBot.png"
+name="Furry Novels Bot" badge="🤖" icon="🐺">
+当然，你也可以帮我 <strong>升级服务器！</strong>
 <div class="quote-area">
 你将获得：<br>
 · <strong>更快的速度、更好的服务</strong><br>
@@ -37,10 +48,9 @@ name="Furry Novels Bot" badge="🤖" icon="🐺">
 </DragonChat>
 
 
-## 🚀 升级服务器
 > [!NOTE]
 >
-> **如果 [@FurryNovelsBot](https://t.me/FurryNovelsBot) 帮到了你，并且你想让他启动、运行得更快的话，欢迎为他赞助升级他的服务器，以便为你提供更好的服务**
+> **如果 [@FurryNovelsBot](https://t.me/FurryNovelsBot) 帮到了你，并且你想让他启动、运行得更快的话，欢迎为他赞助升级他的服务器**
 >
 > **赞助时，请在【留言】中留下【 Bot 】和【你的昵称】，以便本龙统计赞助名单**
  
@@ -85,9 +95,9 @@ name="Furry Novels Bot" badge="🤖" icon="🐺">
 
 > [!IMPORTANT]
 >
-> **赞助金额累计达到 ￥200~300 时（大概是一年半的服务器费用）**
+> **赞助金额将优先用于购买服务器**
 > 
-> **届时则会在 [兽人阅读频道](https://t.me/FurryReading) 发布公告，购买并为其升级服务器，使其可以 7x24h 全天候运行。**
+> **金额累计达到 ￥200~300 时，（大概是一年半的服务器费用），则会在 [兽人阅读频道](https://t.me/FurryReading) 发布公告，购买并升级服务器**
 
 
 ## 🙏 感谢上方诸位的赞助

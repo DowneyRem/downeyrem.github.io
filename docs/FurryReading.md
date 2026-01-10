@@ -46,7 +46,7 @@ hero:
       
     - theme: alt
       text: ©️ 版权投诉
-      link: https://github.com/DowneyRem/FurryNovels/blob/main/DMCA.md
+      link: FurryNovels/DMCA
       
     - theme: alt
       text: 🏠 项目链接
@@ -54,7 +54,7 @@ hero:
       
     - theme: alt
       text: 🚀 助力运营
-      link: https://github.com/DowneyRem/FurryNovels
+      link: Sponsor/Bot
             
     - theme: alt
       text: 🖥️ 众筹主机

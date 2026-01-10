@@ -12,7 +12,7 @@ sticky:
 sidebar: true
 article: true
 comment: true
-coverImg: /img/FurryNovelsBot.pn
+coverImg: /img/FurryNovelsBot.png
 ---
 
 <DragonChat avatar="/img/FurryNovelsBot.png"
