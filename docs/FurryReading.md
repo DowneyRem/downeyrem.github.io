@@ -20,9 +20,9 @@ hero:
   text: 兽人小说，精品阅读
   tagline: 众人分享的，精品小说频道<br>⬇️ 点击【🤖 Bot】分享你喜欢的兽人小说吧
 
-#  image:
-#    src: /img/FurryReading.jpg
-#    alt: Furry Reading Channel Logo
+  image:
+    src: /img/FurryReading.jpg
+    alt: Furry Reading Channel Logo
   actions:
     - theme: alt
       text: ✈️ 下载 Telegram
