@@ -21,7 +21,7 @@ inHomePost: true
 sidebarSort: 9999
 articleBanner: true
 coverColor: null
-coverImg: /blog/DragaliaLost/3.png
+coverImg: /wall/DragaliaLost/3.png
 ---
 
 ## 🔗 本站链接

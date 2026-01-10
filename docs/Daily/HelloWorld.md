@@ -11,9 +11,9 @@ sticky:
 sidebar: true
 article: true
 comment: true
-coverImg: /blog/Legendz/1.png
+coverImg: /wall/Legendz/1.png
 ---
 
 # Hello World
 你好，世界。
-![img](/blog/Legendz/1.png)
+![img](/wall/Legendz/1.png)

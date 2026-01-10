@@ -21,7 +21,7 @@ inHomePost: true
 sidebarSort: 9999
 articleBanner: true
 coverColor: null
-coverImg: /blog/Legendz/1.png
+coverImg: /wall/Legendz/1.png
 ---
 
 ## 🐲 龙的简介

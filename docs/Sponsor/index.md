@@ -16,7 +16,7 @@ sidebar: false
 article: true
 top: true
 #sticky: 1
-coverImg: /blog/DragaliaLost/4.png
+coverImg: /wall/DragaliaLost/4.png
 ---
 
 <DragonChat avatar="/favicon.png"

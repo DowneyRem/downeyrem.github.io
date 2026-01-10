@@ -7,8 +7,8 @@ path: Furry
 desc: 兽人相关博文目录
 sidebar: false
 article: false
-coverImg: /blog/Legendz/1.png
+coverImg: /wall/Legendz/1.png
 ---
 
-![img](/blog/Legendz/1.png)
+![img](/wall/Legendz/1.png)
 

@@ -20,7 +20,7 @@ inHomePost: true
 sidebarSort: 9999
 articleBanner: true
 coverColor: null
-coverImg: /blog/DragaliaLost/2.png
+coverImg: /wall/DragaliaLost/2.png
 ---
 
 # Markdown Extension Examples

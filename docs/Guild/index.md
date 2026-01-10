@@ -7,8 +7,8 @@ path: Guild
 desc: 这里是本龙撰写的简单教程，时间是教程的实际撰写时间
 sidebar: false
 article: false
-coverImg: /blog/DragaliaLost/4.png
+coverImg: /wall/DragaliaLost/4.png
 ---
 
-![img](/blog/DragaliaLost/4.png)
+![img](/wall/DragaliaLost/4.png)
 

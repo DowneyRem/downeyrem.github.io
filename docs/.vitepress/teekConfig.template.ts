@@ -185,7 +185,7 @@ export const teekConfig = defineTeekConfig({
     slogan: "朝圣的使徒，正在走向编程的至高殿堂！", // 博主签名
     avatar: "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar1.png", // 博主头像
     shape: "circle-rotate", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转，circle-rotate-last 将会持续旋转 59s
-    circleBgImg: "/blog/bg4.webp", // 背景图片
+    circleBgImg: "/wall/bg4.webp", // 背景图片
     circleBgMask: true, // 遮罩层是否显示，仅当 shape 为 circle 且 circleBgImg 配置时有效
     circleSize: 100, // 头像大小
     color: "#ffffff", // 字体颜色

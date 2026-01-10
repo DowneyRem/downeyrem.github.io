@@ -6,7 +6,7 @@ categories:
   - 情绪
 tags:
   - 情绪
-coverImg: /blog/DragaliaLost/3.png
+coverImg: /wall/DragaliaLost/3.png
 ---
 
 ## 🖼 2024 Logo 事件

@@ -9,8 +9,8 @@ desc: 本龙的读书笔记
 #pageTitle: 日常博文目录
 sidebar: false
 article: false
-coverImg: /blog/DragaliaLost/4.png
+coverImg: /wall/DragaliaLost/4.png
 ---
 
-![img](/blog/DragaliaLost/4.png)
+![img](/wall/DragaliaLost/4.png)
 

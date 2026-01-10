@@ -7,8 +7,8 @@ path: Daily
 desc: 这里是本龙的日常博文
 sidebar: false
 article: false
-coverImg: /blog/DragaliaLost/4.png
+coverImg: /wall/DragaliaLost/4.png
 ---
 
-![img](/blog/DragaliaLost/4.png)
+![img](/wall/DragaliaLost/4.png)
 

@@ -27,10 +27,10 @@ inHomePost: true
 sidebarSort: 9999
 articleBanner: true
 coverColor: null
-coverImg: /blog/DragaliaLost/1.png
+coverImg: /wall/DragaliaLost/1.png
 ---
 
-![img](/blog/DragaliaLost/1.png)
+![img](/wall/DragaliaLost/1.png)
 
 
 ## 微时代来临

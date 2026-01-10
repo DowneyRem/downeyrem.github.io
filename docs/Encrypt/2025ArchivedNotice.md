@@ -6,7 +6,7 @@ categories:
   - 情绪
 tags:
   - 情绪
-coverImg: /blog/DragaliaLost/2.png
+coverImg: /wall/DragaliaLost/2.png
 ---
 
 ## 🖤 事件起因

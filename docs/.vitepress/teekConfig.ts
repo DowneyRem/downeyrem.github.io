@@ -4,13 +4,13 @@ import { version } from "vitepress-theme-teek/es/version";
 
 
 let wallPapper =  [
-    "/blog/DragaliaLost/1.png",
-    "/blog/DragaliaLost/2.png",
-    "/blog/DragaliaLost/3.png",
-    "/blog/DragaliaLost/4.png",
-    "/blog/Legendz/1.png",
-    "/blog/Warframe/Gauss.jpg",
-    "/blog/Warframe/Sevagoth.png",
+    "/wall/DragaliaLost/1.png",
+    "/wall/DragaliaLost/2.png",
+    "/wall/DragaliaLost/3.png",
+    "/wall/DragaliaLost/4.png",
+    "/wall/Legendz/1.png",
+    "/wall/Warframe/Gauss.jpg",
+    "/wall/Warframe/Sevagoth.png",
 ]
 
 // Teek 主题配置
@@ -204,7 +204,7 @@ export const teekConfig = defineTeekConfig({
         // avatar: "https://www.github.com/DowneyRem.png", // 博主头像
         avatar: "favicon.png", // 博主头像
         shape: "circle-rotate", // 头像风格：square 为方形头像，circle 为圆形头像，circle-rotate 可支持鼠标悬停旋转，circle-rotate-last 将会持续旋转 59s
-        circleBgImg: "/blog/DragaliaLost/0.png", // 背景图片
+        circleBgImg: "/wall/DragaliaLost/0.png", // 背景图片
         circleBgMask: true, // 遮罩层是否显示，仅当 shape 为 circle 且 circleBgImg 配置时有效
         circleSize: 100, // 头像大小
         color: "#ffffff", // 字体颜色
