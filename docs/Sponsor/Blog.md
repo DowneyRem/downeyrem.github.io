@@ -20,7 +20,7 @@ inHomePost: true
 sidebarSort: 9999
 articleBanner: true
 coverColor: null
-coverImg: /wall/DragaliaLost/4.png
+coverImg: /favicon.png
 ---
 
 ## 🍖 投喂本龙

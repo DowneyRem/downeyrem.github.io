@@ -20,7 +20,7 @@ inHomePost: true
 sidebarSort: 9999
 articleBanner: true
 coverColor: null
-coverImg: /wall/DragaliaLost/4.png
+coverImg: /img/FurryNovelsBot.png
 ---
 
 ## 🔊 来自服务器的呼唤
