@@ -53,11 +53,11 @@ hero:
       link: https://github.com/DowneyRem/FurryNovels
       
     - theme: alt
-      text: 🚀 助力运行
+      text: 🚀 助力运营
       link: https://github.com/DowneyRem/FurryNovels
             
     - theme: alt
-      text: 🖥️ 赞助服务
+      text: 🖥️ 众筹主机
       link: Sponsor/Bot
       
 
