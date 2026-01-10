@@ -12,10 +12,15 @@ sticky:
 sidebar: true
 article: true
 comment: true
-coverImg: /wall/Legendz/1.png
+coverImg: /img/FurryNovelsBot.pn
 ---
-![img](/wall/Legendz/1.png)
 
+<DragonChat avatar="/img/FurryNovelsBot.png"
+name="Furry Novels Bot" badge="🤖" icon="🐺">
+<strong>我可以帮你更轻松地下载 Pixiv 小说，</strong><br>
+<strong>顺便还能帮你分享到 <a href="https://t.me/FurryReading" target="_blank">兽人阅读</a> 频道。</strong><br>
+快来帮我 <strong><a href= "../Sponsor/Bot">升级服务器</a></strong> 吧！
+</DragonChat>
 
 ## 关于机器人
 > [!IMPORTANT] 重要
@@ -57,7 +62,7 @@ coverImg: /wall/Legendz/1.png
 - **兽化小说 [@TFNovels](https://t.me/TFNovels)**
 
 > [!NOTE] 提示
-> **只有【使用链接下载】的【中文】【兽人小说】分享至上述频道**
+> **只有【使用链接下载】的【中文】【兽人小说】才会分享至上述频道**
 >
 > 如若您不想让您的作品出现在上述频道，可以查看 [DMCA](./DMCA)
 
